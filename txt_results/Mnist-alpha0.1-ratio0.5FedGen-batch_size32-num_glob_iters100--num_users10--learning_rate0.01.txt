@@ -1,0 +1,2292 @@
+================================================================================
+Summary of training process:
+Algorithm: FedGen
+Batch size: 32
+Learing rate       : 0.01
+Ensemble learing rate       : 0.0001
+Average Moving       : 1.0
+Subset of users      : 3
+Number of global rounds       : 100
+Number of local rounds       : 20
+Dataset       : Mnist-alpha0.1-ratio0.5
+Local Model       : cnn
+Device            : cpu
+================================================================================
+
+
+         [ Start training iteration 0 ]           
+
+
+Creating model for mnist
+Network configs: [6, 16, 'F']
+Dataset mnist
+Build layer 42 X 256
+Build last layer 256 X 32
+ensemble_lr: 0.0003
+ensemble_batch_size: 128
+unique_labels: 10
+latent_layer_idx: -1
+label embedding 0
+ensemeble learning rate: 0.0003
+ensemeble alpha = 1, beta = 0, eta = 1
+generator alpha = 10, beta = 10
+Number of Train/Test samples: 15000 5307
+Data from 20 users in total.
+Finished creating FedAvg server.
+
+
+-------------Round number:  0  -------------
+
+
+Average Global Accurancy = 0.1181, Loss = 2.32.
+Generator: Teacher Loss= 1.9627, Student Loss= 0.0000, Diversity Loss = 0.9361, 
+
+
+-------------Round number:  1  -------------
+
+
+Average Global Accurancy = 0.1438, Loss = 2.31.
+Generator: Teacher Loss= 1.0372, Student Loss= 0.0000, Diversity Loss = 0.9130, 
+
+
+-------------Round number:  2  -------------
+
+
+Average Global Accurancy = 0.1131, Loss = 2.29.
+
+User Teacher Loss=9.8104, Latent Loss=1.8907
+Generator: Teacher Loss= 0.6294, Student Loss= 0.0000, Diversity Loss = 0.8854, 
+
+
+-------------Round number:  3  -------------
+
+
+Average Global Accurancy = 0.1653, Loss = 2.29.
+Generator: Teacher Loss= 0.2903, Student Loss= 0.0000, Diversity Loss = 0.8635, 
+
+
+-------------Round number:  4  -------------
+
+
+Average Global Accurancy = 0.1236, Loss = 2.26.
+Generator: Teacher Loss= 0.1732, Student Loss= 0.0000, Diversity Loss = 0.8479, 
+
+
+-------------Round number:  5  -------------
+
+
+Average Global Accurancy = 0.1700, Loss = 2.17.
+Generator: Teacher Loss= 0.0728, Student Loss= 0.0000, Diversity Loss = 0.8228, 
+
+
+-------------Round number:  6  -------------
+
+
+Average Global Accurancy = 0.1922, Loss = 2.14.
+Generator: Teacher Loss= 0.0263, Student Loss= 0.0000, Diversity Loss = 0.8103, 
+
+
+-------------Round number:  7  -------------
+
+
+Average Global Accurancy = 0.2710, Loss = 1.98.
+Generator: Teacher Loss= 0.0270, Student Loss= 0.0000, Diversity Loss = 0.8088, 
+
+
+-------------Round number:  8  -------------
+
+
+Average Global Accurancy = 0.1696, Loss = 2.02.
+Generator: Teacher Loss= 0.0181, Student Loss= 0.0000, Diversity Loss = 0.7964, 
+
+
+-------------Round number:  9  -------------
+
+
+Average Global Accurancy = 0.4389, Loss = 1.64.
+Generator: Teacher Loss= 0.0108, Student Loss= 0.0000, Diversity Loss = 0.7884, 
+
+
+-------------Round number:  10  -------------
+
+
+Average Global Accurancy = 0.4426, Loss = 1.51.
+Generator: Teacher Loss= 0.0096, Student Loss= 0.0000, Diversity Loss = 0.7829, 
+
+
+-------------Round number:  11  -------------
+
+
+Average Global Accurancy = 0.5476, Loss = 1.33.
+Generator: Teacher Loss= 0.0098, Student Loss= 0.0000, Diversity Loss = 0.7849, 
+
+
+-------------Round number:  12  -------------
+
+
+Average Global Accurancy = 0.5463, Loss = 1.40.
+Generator: Teacher Loss= 0.0045, Student Loss= 0.0000, Diversity Loss = 0.7643, 
+
+
+-------------Round number:  13  -------------
+
+
+Average Global Accurancy = 0.6050, Loss = 1.21.
+Generator: Teacher Loss= 0.0050, Student Loss= 0.0000, Diversity Loss = 0.7567, 
+
+
+-------------Round number:  14  -------------
+
+
+Average Global Accurancy = 0.6050, Loss = 1.20.
+Generator: Teacher Loss= 0.0085, Student Loss= 0.0000, Diversity Loss = 0.7727, 
+
+
+-------------Round number:  15  -------------
+
+
+Average Global Accurancy = 0.6582, Loss = 1.06.
+
+User Teacher Loss=0.0215, Latent Loss=2.7223
+Generator: Teacher Loss= 0.0029, Student Loss= 0.0000, Diversity Loss = 0.7437, 
+
+
+-------------Round number:  16  -------------
+
+
+Average Global Accurancy = 0.6248, Loss = 1.15.
+Generator: Teacher Loss= 0.0022, Student Loss= 0.0000, Diversity Loss = 0.7369, 
+
+
+-------------Round number:  17  -------------
+
+
+Average Global Accurancy = 0.6946, Loss = 0.98.
+
+User Teacher Loss=0.0063, Latent Loss=1.0102
+Generator: Teacher Loss= 0.0021, Student Loss= 0.0000, Diversity Loss = 0.7349, 
+
+
+-------------Round number:  18  -------------
+
+
+Average Global Accurancy = 0.6748, Loss = 0.98.
+Generator: Teacher Loss= 0.0013, Student Loss= 0.0000, Diversity Loss = 0.7235, 
+
+
+-------------Round number:  19  -------------
+
+
+Average Global Accurancy = 0.4705, Loss = 1.85.
+
+User Teacher Loss=0.0035, Latent Loss=1.2117
+Generator: Teacher Loss= 0.0018, Student Loss= 0.0000, Diversity Loss = 0.7110, 
+
+
+-------------Round number:  20  -------------
+
+
+Average Global Accurancy = 0.6395, Loss = 1.07.
+Generator: Teacher Loss= 0.0012, Student Loss= 0.0000, Diversity Loss = 0.7020, 
+
+
+-------------Round number:  21  -------------
+
+
+Average Global Accurancy = 0.6523, Loss = 0.96.
+Generator: Teacher Loss= 0.0017, Student Loss= 0.0000, Diversity Loss = 0.6972, 
+
+
+-------------Round number:  22  -------------
+
+
+Average Global Accurancy = 0.7104, Loss = 0.89.
+Generator: Teacher Loss= 0.0017, Student Loss= 0.0000, Diversity Loss = 0.6876, 
+
+
+-------------Round number:  23  -------------
+
+
+Average Global Accurancy = 0.8204, Loss = 0.62.
+Generator: Teacher Loss= 0.0009, Student Loss= 0.0000, Diversity Loss = 0.6816, 
+
+
+-------------Round number:  24  -------------
+
+
+Average Global Accurancy = 0.7422, Loss = 0.79.
+Generator: Teacher Loss= 0.0005, Student Loss= 0.0000, Diversity Loss = 0.6712, 
+
+
+-------------Round number:  25  -------------
+
+
+Average Global Accurancy = 0.7675, Loss = 0.70.
+Generator: Teacher Loss= 0.0006, Student Loss= 0.0000, Diversity Loss = 0.6667, 
+
+
+-------------Round number:  26  -------------
+
+
+Average Global Accurancy = 0.7675, Loss = 0.74.
+Generator: Teacher Loss= 0.0005, Student Loss= 0.0000, Diversity Loss = 0.6691, 
+
+
+-------------Round number:  27  -------------
+
+
+Average Global Accurancy = 0.7239, Loss = 0.86.
+Generator: Teacher Loss= 0.0008, Student Loss= 0.0000, Diversity Loss = 0.6539, 
+
+
+-------------Round number:  28  -------------
+
+
+Average Global Accurancy = 0.7795, Loss = 0.68.
+Generator: Teacher Loss= 0.0007, Student Loss= 0.0000, Diversity Loss = 0.6480, 
+
+
+-------------Round number:  29  -------------
+
+
+Average Global Accurancy = 0.8069, Loss = 0.63.
+Generator: Teacher Loss= 0.0020, Student Loss= 0.0000, Diversity Loss = 0.6586, 
+
+
+-------------Round number:  30  -------------
+
+
+Average Global Accurancy = 0.8248, Loss = 0.63.
+Generator: Teacher Loss= 0.0010, Student Loss= 0.0000, Diversity Loss = 0.6496, 
+
+
+-------------Round number:  31  -------------
+
+
+Average Global Accurancy = 0.7793, Loss = 0.66.
+Generator: Teacher Loss= 0.0008, Student Loss= 0.0000, Diversity Loss = 0.6472, 
+
+
+-------------Round number:  32  -------------
+
+
+Average Global Accurancy = 0.8662, Loss = 0.42.
+Generator: Teacher Loss= 0.0007, Student Loss= 0.0000, Diversity Loss = 0.6403, 
+
+
+-------------Round number:  33  -------------
+
+
+Average Global Accurancy = 0.8359, Loss = 0.50.
+
+User Teacher Loss=0.0027, Latent Loss=0.5756
+Generator: Teacher Loss= 0.0012, Student Loss= 0.0000, Diversity Loss = 0.6323, 
+
+
+-------------Round number:  34  -------------
+
+
+Average Global Accurancy = 0.8376, Loss = 0.49.
+Generator: Teacher Loss= 0.0014, Student Loss= 0.0000, Diversity Loss = 0.6252, 
+
+
+-------------Round number:  35  -------------
+
+
+Average Global Accurancy = 0.8379, Loss = 0.50.
+Generator: Teacher Loss= 0.0024, Student Loss= 0.0000, Diversity Loss = 0.6262, 
+
+
+-------------Round number:  36  -------------
+
+
+Average Global Accurancy = 0.8455, Loss = 0.50.
+Generator: Teacher Loss= 0.0013, Student Loss= 0.0000, Diversity Loss = 0.6132, 
+
+
+-------------Round number:  37  -------------
+
+
+Average Global Accurancy = 0.8722, Loss = 0.42.
+Generator: Teacher Loss= 0.0014, Student Loss= 0.0000, Diversity Loss = 0.6098, 
+
+
+-------------Round number:  38  -------------
+
+
+Average Global Accurancy = 0.8856, Loss = 0.39.
+
+User Teacher Loss=0.0053, Latent Loss=0.5702
+Generator: Teacher Loss= 0.0022, Student Loss= 0.0000, Diversity Loss = 0.6097, 
+
+
+-------------Round number:  39  -------------
+
+
+Average Global Accurancy = 0.8038, Loss = 0.57.
+Generator: Teacher Loss= 0.0020, Student Loss= 0.0000, Diversity Loss = 0.6033, 
+
+
+-------------Round number:  40  -------------
+
+
+Average Global Accurancy = 0.8395, Loss = 0.50.
+Generator: Teacher Loss= 0.0021, Student Loss= 0.0000, Diversity Loss = 0.6042, 
+
+
+-------------Round number:  41  -------------
+
+
+Average Global Accurancy = 0.8542, Loss = 0.48.
+Generator: Teacher Loss= 0.0024, Student Loss= 0.0000, Diversity Loss = 0.5976, 
+
+
+-------------Round number:  42  -------------
+
+
+Average Global Accurancy = 0.8879, Loss = 0.37.
+Generator: Teacher Loss= 0.0031, Student Loss= 0.0000, Diversity Loss = 0.5962, 
+
+
+-------------Round number:  43  -------------
+
+
+Average Global Accurancy = 0.8660, Loss = 0.43.
+Generator: Teacher Loss= 0.0024, Student Loss= 0.0000, Diversity Loss = 0.5839, 
+
+
+-------------Round number:  44  -------------
+
+
+Average Global Accurancy = 0.8781, Loss = 0.39.
+Generator: Teacher Loss= 0.0041, Student Loss= 0.0000, Diversity Loss = 0.5871, 
+
+
+-------------Round number:  45  -------------
+
+
+Average Global Accurancy = 0.7929, Loss = 0.62.
+Generator: Teacher Loss= 0.0030, Student Loss= 0.0000, Diversity Loss = 0.5802, 
+
+
+-------------Round number:  46  -------------
+
+
+Average Global Accurancy = 0.8734, Loss = 0.40.
+Generator: Teacher Loss= 0.0027, Student Loss= 0.0000, Diversity Loss = 0.5705, 
+
+
+-------------Round number:  47  -------------
+
+
+Average Global Accurancy = 0.8973, Loss = 0.35.
+Generator: Teacher Loss= 0.0059, Student Loss= 0.0000, Diversity Loss = 0.5876, 
+
+
+-------------Round number:  48  -------------
+
+
+Average Global Accurancy = 0.8270, Loss = 0.51.
+Generator: Teacher Loss= 0.0032, Student Loss= 0.0000, Diversity Loss = 0.5645, 
+
+
+-------------Round number:  49  -------------
+
+
+Average Global Accurancy = 0.8717, Loss = 0.43.
+
+User Teacher Loss=0.0054, Latent Loss=0.1576
+Generator: Teacher Loss= 0.0043, Student Loss= 0.0000, Diversity Loss = 0.5621, 
+
+
+-------------Round number:  50  -------------
+
+
+Average Global Accurancy = 0.8628, Loss = 0.42.
+Generator: Teacher Loss= 0.0060, Student Loss= 0.0000, Diversity Loss = 0.5546, 
+
+
+-------------Round number:  51  -------------
+
+
+Average Global Accurancy = 0.8960, Loss = 0.33.
+Generator: Teacher Loss= 0.0041, Student Loss= 0.0000, Diversity Loss = 0.5617, 
+
+
+-------------Round number:  52  -------------
+
+
+Average Global Accurancy = 0.8771, Loss = 0.37.
+Generator: Teacher Loss= 0.0058, Student Loss= 0.0000, Diversity Loss = 0.5450, 
+
+
+-------------Round number:  53  -------------
+
+
+Average Global Accurancy = 0.8962, Loss = 0.35.
+Generator: Teacher Loss= 0.0043, Student Loss= 0.0000, Diversity Loss = 0.5424, 
+
+
+-------------Round number:  54  -------------
+
+
+Average Global Accurancy = 0.9156, Loss = 0.29.
+Generator: Teacher Loss= 0.0042, Student Loss= 0.0000, Diversity Loss = 0.5381, 
+
+
+-------------Round number:  55  -------------
+
+
+Average Global Accurancy = 0.8932, Loss = 0.35.
+
+User Teacher Loss=0.0054, Latent Loss=0.1175
+Generator: Teacher Loss= 0.0073, Student Loss= 0.0000, Diversity Loss = 0.5323, 
+
+
+-------------Round number:  56  -------------
+
+
+Average Global Accurancy = 0.8945, Loss = 0.34.
+Generator: Teacher Loss= 0.0047, Student Loss= 0.0000, Diversity Loss = 0.5338, 
+
+
+-------------Round number:  57  -------------
+
+
+Average Global Accurancy = 0.9067, Loss = 0.31.
+
+User Teacher Loss=0.0085, Latent Loss=0.4276
+Generator: Teacher Loss= 0.0054, Student Loss= 0.0000, Diversity Loss = 0.5258, 
+
+
+-------------Round number:  58  -------------
+
+
+Average Global Accurancy = 0.9105, Loss = 0.31.
+Generator: Teacher Loss= 0.0196, Student Loss= 0.0000, Diversity Loss = 0.5762, 
+
+
+-------------Round number:  59  -------------
+
+
+Average Global Accurancy = 0.8864, Loss = 0.38.
+Generator: Teacher Loss= 0.0065, Student Loss= 0.0000, Diversity Loss = 0.5208, 
+
+
+-------------Round number:  60  -------------
+
+
+Average Global Accurancy = 0.9237, Loss = 0.27.
+Generator: Teacher Loss= 0.0037, Student Loss= 0.0000, Diversity Loss = 0.5207, 
+
+
+-------------Round number:  61  -------------
+
+
+Average Global Accurancy = 0.9009, Loss = 0.32.
+Generator: Teacher Loss= 0.0053, Student Loss= 0.0000, Diversity Loss = 0.5168, 
+
+
+-------------Round number:  62  -------------
+
+
+Average Global Accurancy = 0.8952, Loss = 0.33.
+Generator: Teacher Loss= 0.0051, Student Loss= 0.0000, Diversity Loss = 0.5111, 
+
+
+-------------Round number:  63  -------------
+
+
+Average Global Accurancy = 0.9192, Loss = 0.27.
+Generator: Teacher Loss= 0.0053, Student Loss= 0.0000, Diversity Loss = 0.5085, 
+
+
+-------------Round number:  64  -------------
+
+
+Average Global Accurancy = 0.9058, Loss = 0.31.
+
+User Teacher Loss=0.0089, Latent Loss=0.0847
+Generator: Teacher Loss= 0.0069, Student Loss= 0.0000, Diversity Loss = 0.5083, 
+
+
+-------------Round number:  65  -------------
+
+
+Average Global Accurancy = 0.9094, Loss = 0.32.
+
+User Teacher Loss=0.0092, Latent Loss=0.3114
+Generator: Teacher Loss= 0.0071, Student Loss= 0.0000, Diversity Loss = 0.5041, 
+
+
+-------------Round number:  66  -------------
+
+
+Average Global Accurancy = 0.8781, Loss = 0.39.
+Generator: Teacher Loss= 0.0067, Student Loss= 0.0000, Diversity Loss = 0.5030, 
+
+
+-------------Round number:  67  -------------
+
+
+Average Global Accurancy = 0.9020, Loss = 0.34.
+Generator: Teacher Loss= 0.0096, Student Loss= 0.0000, Diversity Loss = 0.5064, 
+
+
+-------------Round number:  68  -------------
+
+
+Average Global Accurancy = 0.8687, Loss = 0.41.
+
+User Teacher Loss=0.0088, Latent Loss=0.1801
+Generator: Teacher Loss= 0.0106, Student Loss= 0.0000, Diversity Loss = 0.5063, 
+
+
+-------------Round number:  69  -------------
+
+
+Average Global Accurancy = 0.9079, Loss = 0.30.
+Generator: Teacher Loss= 0.0097, Student Loss= 0.0000, Diversity Loss = 0.4966, 
+
+
+-------------Round number:  70  -------------
+
+
+Average Global Accurancy = 0.8830, Loss = 0.36.
+
+User Teacher Loss=0.0069, Latent Loss=0.1159
+Generator: Teacher Loss= 0.0103, Student Loss= 0.0000, Diversity Loss = 0.5076, 
+
+
+-------------Round number:  71  -------------
+
+
+Average Global Accurancy = 0.8984, Loss = 0.33.
+Generator: Teacher Loss= 0.0084, Student Loss= 0.0000, Diversity Loss = 0.4866, 
+
+
+-------------Round number:  72  -------------
+
+
+Average Global Accurancy = 0.8888, Loss = 0.35.
+Generator: Teacher Loss= 0.0095, Student Loss= 0.0000, Diversity Loss = 0.4860, 
+
+
+-------------Round number:  73  -------------
+
+
+Average Global Accurancy = 0.9184, Loss = 0.29.
+Generator: Teacher Loss= 0.0074, Student Loss= 0.0000, Diversity Loss = 0.4878, 
+
+
+-------------Round number:  74  -------------
+
+
+Average Global Accurancy = 0.9212, Loss = 0.28.
+Generator: Teacher Loss= 0.0114, Student Loss= 0.0000, Diversity Loss = 0.4825, 
+
+
+-------------Round number:  75  -------------
+
+
+Average Global Accurancy = 0.9227, Loss = 0.26.
+Generator: Teacher Loss= 0.0142, Student Loss= 0.0000, Diversity Loss = 0.5032, 
+
+
+-------------Round number:  76  -------------
+
+
+Average Global Accurancy = 0.9197, Loss = 0.27.
+Generator: Teacher Loss= 0.0076, Student Loss= 0.0000, Diversity Loss = 0.4778, 
+
+
+-------------Round number:  77  -------------
+
+
+Average Global Accurancy = 0.9041, Loss = 0.33.
+Generator: Teacher Loss= 0.0164, Student Loss= 0.0000, Diversity Loss = 0.4915, 
+
+
+-------------Round number:  78  -------------
+
+
+Average Global Accurancy = 0.9016, Loss = 0.31.
+Generator: Teacher Loss= 0.0092, Student Loss= 0.0000, Diversity Loss = 0.4764, 
+
+
+-------------Round number:  79  -------------
+
+
+Average Global Accurancy = 0.8933, Loss = 0.34.
+Generator: Teacher Loss= 0.0087, Student Loss= 0.0000, Diversity Loss = 0.4767, 
+
+
+-------------Round number:  80  -------------
+
+
+Average Global Accurancy = 0.9156, Loss = 0.28.
+Generator: Teacher Loss= 0.0072, Student Loss= 0.0000, Diversity Loss = 0.4764, 
+
+
+-------------Round number:  81  -------------
+
+
+Average Global Accurancy = 0.9001, Loss = 0.32.
+Generator: Teacher Loss= 0.0156, Student Loss= 0.0000, Diversity Loss = 0.4914, 
+
+
+-------------Round number:  82  -------------
+
+
+Average Global Accurancy = 0.9175, Loss = 0.28.
+
+User Teacher Loss=0.0093, Latent Loss=0.1547
+Generator: Teacher Loss= 0.0085, Student Loss= 0.0000, Diversity Loss = 0.4722, 
+
+
+-------------Round number:  83  -------------
+
+
+Average Global Accurancy = 0.9084, Loss = 0.30.
+Generator: Teacher Loss= 0.0083, Student Loss= 0.0000, Diversity Loss = 0.4683, 
+
+
+-------------Round number:  84  -------------
+
+
+Average Global Accurancy = 0.9209, Loss = 0.27.
+Generator: Teacher Loss= 0.0104, Student Loss= 0.0000, Diversity Loss = 0.4682, 
+
+
+-------------Round number:  85  -------------
+
+
+Average Global Accurancy = 0.9158, Loss = 0.29.
+Generator: Teacher Loss= 0.0185, Student Loss= 0.0000, Diversity Loss = 0.4959, 
+
+
+-------------Round number:  86  -------------
+
+
+Average Global Accurancy = 0.9209, Loss = 0.28.
+Generator: Teacher Loss= 0.0132, Student Loss= 0.0000, Diversity Loss = 0.4715, 
+
+
+-------------Round number:  87  -------------
+
+
+Average Global Accurancy = 0.9016, Loss = 0.32.
+Generator: Teacher Loss= 0.0103, Student Loss= 0.0000, Diversity Loss = 0.4673, 
+
+
+-------------Round number:  88  -------------
+
+
+Average Global Accurancy = 0.9197, Loss = 0.27.
+
+User Teacher Loss=0.0081, Latent Loss=0.1411
+Generator: Teacher Loss= 0.0115, Student Loss= 0.0000, Diversity Loss = 0.4632, 
+
+
+-------------Round number:  89  -------------
+
+
+Average Global Accurancy = 0.9084, Loss = 0.31.
+Generator: Teacher Loss= 0.0257, Student Loss= 0.0000, Diversity Loss = 0.4853, 
+
+
+-------------Round number:  90  -------------
+
+
+Average Global Accurancy = 0.9205, Loss = 0.28.
+Generator: Teacher Loss= 0.0131, Student Loss= 0.0000, Diversity Loss = 0.4826, 
+
+
+-------------Round number:  91  -------------
+
+
+Average Global Accurancy = 0.9058, Loss = 0.31.
+Generator: Teacher Loss= 0.0115, Student Loss= 0.0000, Diversity Loss = 0.4664, 
+
+
+-------------Round number:  92  -------------
+
+
+Average Global Accurancy = 0.8896, Loss = 0.35.
+
+User Teacher Loss=0.0081, Latent Loss=0.1043
+Generator: Teacher Loss= 0.0163, Student Loss= 0.0000, Diversity Loss = 0.4835, 
+
+
+-------------Round number:  93  -------------
+
+
+Average Global Accurancy = 0.8915, Loss = 0.34.
+Generator: Teacher Loss= 0.0100, Student Loss= 0.0000, Diversity Loss = 0.4672, 
+
+
+-------------Round number:  94  -------------
+
+
+Average Global Accurancy = 0.9154, Loss = 0.29.
+Generator: Teacher Loss= 0.0087, Student Loss= 0.0000, Diversity Loss = 0.4695, 
+
+
+-------------Round number:  95  -------------
+
+
+Average Global Accurancy = 0.9192, Loss = 0.27.
+
+User Teacher Loss=0.0063, Latent Loss=0.1221
+Generator: Teacher Loss= 0.0099, Student Loss= 0.0000, Diversity Loss = 0.4710, 
+
+
+-------------Round number:  96  -------------
+
+
+Average Global Accurancy = 0.9235, Loss = 0.27.
+
+User Teacher Loss=0.0069, Latent Loss=0.1501
+Generator: Teacher Loss= 0.0087, Student Loss= 0.0000, Diversity Loss = 0.4618, 
+
+
+-------------Round number:  97  -------------
+
+
+Average Global Accurancy = 0.9227, Loss = 0.27.
+
+User Teacher Loss=0.0073, Latent Loss=0.0974
+Generator: Teacher Loss= 0.0130, Student Loss= 0.0000, Diversity Loss = 0.4662, 
+
+
+-------------Round number:  98  -------------
+
+
+Average Global Accurancy = 0.9254, Loss = 0.26.
+Generator: Teacher Loss= 0.0094, Student Loss= 0.0000, Diversity Loss = 0.4585, 
+
+
+-------------Round number:  99  -------------
+
+
+Average Global Accurancy = 0.9229, Loss = 0.27.
+Generator: Teacher Loss= 0.0091, Student Loss= 0.0000, Diversity Loss = 0.4618, 
+
+
+         [ Start training iteration 1 ]           
+
+
+Creating model for mnist
+Network configs: [6, 16, 'F']
+Dataset mnist
+Build layer 42 X 256
+Build last layer 256 X 32
+ensemble_lr: 0.0003
+ensemble_batch_size: 128
+unique_labels: 10
+latent_layer_idx: -1
+label embedding 0
+ensemeble learning rate: 0.0003
+ensemeble alpha = 1, beta = 0, eta = 1
+generator alpha = 10, beta = 10
+Number of Train/Test samples: 15000 5307
+Data from 20 users in total.
+Finished creating FedAvg server.
+
+
+-------------Round number:  0  -------------
+
+
+Average Global Accurancy = 0.0741, Loss = 2.32.
+Generator: Teacher Loss= 1.9798, Student Loss= 0.0000, Diversity Loss = 0.9362, 
+
+
+-------------Round number:  1  -------------
+
+
+Average Global Accurancy = 0.1012, Loss = 2.29.
+Generator: Teacher Loss= 0.8974, Student Loss= 0.0000, Diversity Loss = 0.9128, 
+
+
+-------------Round number:  2  -------------
+
+
+Average Global Accurancy = 0.1127, Loss = 2.29.
+Generator: Teacher Loss= 0.7403, Student Loss= 0.0000, Diversity Loss = 0.8921, 
+
+
+-------------Round number:  3  -------------
+
+
+Average Global Accurancy = 0.0746, Loss = 2.31.
+Generator: Teacher Loss= 0.3443, Student Loss= 0.0000, Diversity Loss = 0.8673, 
+
+
+-------------Round number:  4  -------------
+
+
+Average Global Accurancy = 0.1142, Loss = 2.40.
+Generator: Teacher Loss= 0.1168, Student Loss= 0.0000, Diversity Loss = 0.8461, 
+
+
+-------------Round number:  5  -------------
+
+
+Average Global Accurancy = 0.0944, Loss = 2.21.
+
+User Teacher Loss=0.6526, Latent Loss=6.6168
+Generator: Teacher Loss= 0.0697, Student Loss= 0.0000, Diversity Loss = 0.8351, 
+
+
+-------------Round number:  6  -------------
+
+
+Average Global Accurancy = 0.1298, Loss = 2.12.
+Generator: Teacher Loss= 0.0360, Student Loss= 0.0000, Diversity Loss = 0.8211, 
+
+
+-------------Round number:  7  -------------
+
+
+Average Global Accurancy = 0.1732, Loss = 2.36.
+
+User Teacher Loss=0.1868, Latent Loss=2.9768
+Generator: Teacher Loss= 0.0437, Student Loss= 0.0000, Diversity Loss = 0.8183, 
+
+
+-------------Round number:  8  -------------
+
+
+Average Global Accurancy = 0.2337, Loss = 2.05.
+Generator: Teacher Loss= 0.0192, Student Loss= 0.0000, Diversity Loss = 0.7949, 
+
+
+-------------Round number:  9  -------------
+
+
+Average Global Accurancy = 0.3917, Loss = 1.70.
+Generator: Teacher Loss= 0.0146, Student Loss= 0.0000, Diversity Loss = 0.7892, 
+
+
+-------------Round number:  10  -------------
+
+
+Average Global Accurancy = 0.3836, Loss = 1.71.
+Generator: Teacher Loss= 0.0109, Student Loss= 0.0000, Diversity Loss = 0.7826, 
+
+
+-------------Round number:  11  -------------
+
+
+Average Global Accurancy = 0.3484, Loss = 2.11.
+Generator: Teacher Loss= 0.0091, Student Loss= 0.0000, Diversity Loss = 0.7777, 
+
+
+-------------Round number:  12  -------------
+
+
+Average Global Accurancy = 0.5589, Loss = 1.30.
+Generator: Teacher Loss= 0.0055, Student Loss= 0.0000, Diversity Loss = 0.7735, 
+
+
+-------------Round number:  13  -------------
+
+
+Average Global Accurancy = 0.5523, Loss = 1.32.
+Generator: Teacher Loss= 0.0053, Student Loss= 0.0000, Diversity Loss = 0.7583, 
+
+
+-------------Round number:  14  -------------
+
+
+Average Global Accurancy = 0.7249, Loss = 0.96.
+Generator: Teacher Loss= 0.0034, Student Loss= 0.0000, Diversity Loss = 0.7570, 
+
+
+-------------Round number:  15  -------------
+
+
+Average Global Accurancy = 0.5920, Loss = 1.27.
+Generator: Teacher Loss= 0.0021, Student Loss= 0.0000, Diversity Loss = 0.7405, 
+
+
+-------------Round number:  16  -------------
+
+
+Average Global Accurancy = 0.7413, Loss = 0.86.
+Generator: Teacher Loss= 0.0022, Student Loss= 0.0000, Diversity Loss = 0.7377, 
+
+
+-------------Round number:  17  -------------
+
+
+Average Global Accurancy = 0.6978, Loss = 0.93.
+Generator: Teacher Loss= 0.0016, Student Loss= 0.0000, Diversity Loss = 0.7316, 
+
+
+-------------Round number:  18  -------------
+
+
+Average Global Accurancy = 0.7019, Loss = 0.99.
+Generator: Teacher Loss= 0.0015, Student Loss= 0.0000, Diversity Loss = 0.7192, 
+
+
+-------------Round number:  19  -------------
+
+
+Average Global Accurancy = 0.6989, Loss = 0.97.
+Generator: Teacher Loss= 0.0013, Student Loss= 0.0000, Diversity Loss = 0.7114, 
+
+
+-------------Round number:  20  -------------
+
+
+Average Global Accurancy = 0.7449, Loss = 0.84.
+Generator: Teacher Loss= 0.0019, Student Loss= 0.0000, Diversity Loss = 0.7174, 
+
+
+-------------Round number:  21  -------------
+
+
+Average Global Accurancy = 0.7347, Loss = 0.87.
+
+User Teacher Loss=0.0051, Latent Loss=0.9968
+Generator: Teacher Loss= 0.0012, Student Loss= 0.0000, Diversity Loss = 0.6939, 
+
+
+-------------Round number:  22  -------------
+
+
+Average Global Accurancy = 0.6863, Loss = 0.97.
+Generator: Teacher Loss= 0.0030, Student Loss= 0.0000, Diversity Loss = 0.6994, 
+
+
+-------------Round number:  23  -------------
+
+
+Average Global Accurancy = 0.7948, Loss = 0.69.
+Generator: Teacher Loss= 0.0010, Student Loss= 0.0000, Diversity Loss = 0.6779, 
+
+
+-------------Round number:  24  -------------
+
+
+Average Global Accurancy = 0.7760, Loss = 0.76.
+Generator: Teacher Loss= 0.0014, Student Loss= 0.0000, Diversity Loss = 0.6760, 
+
+
+-------------Round number:  25  -------------
+
+
+Average Global Accurancy = 0.8417, Loss = 0.63.
+Generator: Teacher Loss= 0.0010, Student Loss= 0.0000, Diversity Loss = 0.6672, 
+
+
+-------------Round number:  26  -------------
+
+
+Average Global Accurancy = 0.8359, Loss = 0.59.
+Generator: Teacher Loss= 0.0012, Student Loss= 0.0000, Diversity Loss = 0.6751, 
+
+
+-------------Round number:  27  -------------
+
+
+Average Global Accurancy = 0.8494, Loss = 0.55.
+
+User Teacher Loss=0.0017, Latent Loss=0.5137
+Generator: Teacher Loss= 0.0010, Student Loss= 0.0000, Diversity Loss = 0.6509, 
+
+
+-------------Round number:  28  -------------
+
+
+Average Global Accurancy = 0.8496, Loss = 0.54.
+Generator: Teacher Loss= 0.0027, Student Loss= 0.0000, Diversity Loss = 0.6636, 
+
+
+-------------Round number:  29  -------------
+
+
+Average Global Accurancy = 0.8694, Loss = 0.51.
+Generator: Teacher Loss= 0.0008, Student Loss= 0.0000, Diversity Loss = 0.6414, 
+
+
+-------------Round number:  30  -------------
+
+
+Average Global Accurancy = 0.8319, Loss = 0.57.
+Generator: Teacher Loss= 0.0014, Student Loss= 0.0000, Diversity Loss = 0.6389, 
+
+
+-------------Round number:  31  -------------
+
+
+Average Global Accurancy = 0.7466, Loss = 0.77.
+Generator: Teacher Loss= 0.0016, Student Loss= 0.0000, Diversity Loss = 0.6339, 
+
+
+-------------Round number:  32  -------------
+
+
+Average Global Accurancy = 0.8641, Loss = 0.47.
+
+User Teacher Loss=0.0046, Latent Loss=0.3664
+Generator: Teacher Loss= 0.0044, Student Loss= 0.0000, Diversity Loss = 0.6520, 
+
+
+-------------Round number:  33  -------------
+
+
+Average Global Accurancy = 0.8476, Loss = 0.51.
+Generator: Teacher Loss= 0.0016, Student Loss= 0.0000, Diversity Loss = 0.6225, 
+
+
+-------------Round number:  34  -------------
+
+
+Average Global Accurancy = 0.7728, Loss = 0.68.
+
+User Teacher Loss=0.0049, Latent Loss=0.2950
+Generator: Teacher Loss= 0.0017, Student Loss= 0.0000, Diversity Loss = 0.6217, 
+
+
+-------------Round number:  35  -------------
+
+
+Average Global Accurancy = 0.8587, Loss = 0.45.
+Generator: Teacher Loss= 0.0014, Student Loss= 0.0000, Diversity Loss = 0.6271, 
+
+
+-------------Round number:  36  -------------
+
+
+Average Global Accurancy = 0.8574, Loss = 0.46.
+Generator: Teacher Loss= 0.0018, Student Loss= 0.0000, Diversity Loss = 0.6166, 
+
+
+-------------Round number:  37  -------------
+
+
+Average Global Accurancy = 0.8534, Loss = 0.49.
+Generator: Teacher Loss= 0.0021, Student Loss= 0.0000, Diversity Loss = 0.6226, 
+
+
+-------------Round number:  38  -------------
+
+
+Average Global Accurancy = 0.8619, Loss = 0.48.
+Generator: Teacher Loss= 0.0018, Student Loss= 0.0000, Diversity Loss = 0.6027, 
+
+
+-------------Round number:  39  -------------
+
+
+Average Global Accurancy = 0.8206, Loss = 0.53.
+Generator: Teacher Loss= 0.0020, Student Loss= 0.0000, Diversity Loss = 0.6014, 
+
+
+-------------Round number:  40  -------------
+
+
+Average Global Accurancy = 0.8598, Loss = 0.43.
+Generator: Teacher Loss= 0.0020, Student Loss= 0.0000, Diversity Loss = 0.5976, 
+
+
+-------------Round number:  41  -------------
+
+
+Average Global Accurancy = 0.8930, Loss = 0.35.
+Generator: Teacher Loss= 0.0023, Student Loss= 0.0000, Diversity Loss = 0.5879, 
+
+
+-------------Round number:  42  -------------
+
+
+Average Global Accurancy = 0.9037, Loss = 0.33.
+Generator: Teacher Loss= 0.0032, Student Loss= 0.0000, Diversity Loss = 0.6010, 
+
+
+-------------Round number:  43  -------------
+
+
+Average Global Accurancy = 0.8809, Loss = 0.41.
+Generator: Teacher Loss= 0.0036, Student Loss= 0.0000, Diversity Loss = 0.5830, 
+
+
+-------------Round number:  44  -------------
+
+
+Average Global Accurancy = 0.8753, Loss = 0.41.
+Generator: Teacher Loss= 0.0027, Student Loss= 0.0000, Diversity Loss = 0.5772, 
+
+
+-------------Round number:  45  -------------
+
+
+Average Global Accurancy = 0.8466, Loss = 0.47.
+
+User Teacher Loss=0.0054, Latent Loss=0.5298
+Generator: Teacher Loss= 0.0042, Student Loss= 0.0000, Diversity Loss = 0.5737, 
+
+
+-------------Round number:  46  -------------
+
+
+Average Global Accurancy = 0.8609, Loss = 0.44.
+Generator: Teacher Loss= 0.0026, Student Loss= 0.0000, Diversity Loss = 0.5669, 
+
+
+-------------Round number:  47  -------------
+
+
+Average Global Accurancy = 0.8568, Loss = 0.45.
+
+User Teacher Loss=0.0058, Latent Loss=0.8907
+Generator: Teacher Loss= 0.0029, Student Loss= 0.0000, Diversity Loss = 0.5636, 
+
+
+-------------Round number:  48  -------------
+
+
+Average Global Accurancy = 0.9065, Loss = 0.32.
+Generator: Teacher Loss= 0.0031, Student Loss= 0.0000, Diversity Loss = 0.5633, 
+
+
+-------------Round number:  49  -------------
+
+
+Average Global Accurancy = 0.8647, Loss = 0.41.
+Generator: Teacher Loss= 0.0033, Student Loss= 0.0000, Diversity Loss = 0.5589, 
+
+
+-------------Round number:  50  -------------
+
+
+Average Global Accurancy = 0.9050, Loss = 0.32.
+
+User Teacher Loss=0.0078, Latent Loss=0.3468
+Generator: Teacher Loss= 0.0038, Student Loss= 0.0000, Diversity Loss = 0.5512, 
+
+
+-------------Round number:  51  -------------
+
+
+Average Global Accurancy = 0.8999, Loss = 0.33.
+
+User Teacher Loss=0.0076, Latent Loss=0.2237
+Generator: Teacher Loss= 0.0105, Student Loss= 0.0000, Diversity Loss = 0.5731, 
+
+
+-------------Round number:  52  -------------
+
+
+Average Global Accurancy = 0.8427, Loss = 0.45.
+
+User Teacher Loss=0.0109, Latent Loss=0.1383
+Generator: Teacher Loss= 0.0083, Student Loss= 0.0000, Diversity Loss = 0.5819, 
+
+
+-------------Round number:  53  -------------
+
+
+Average Global Accurancy = 0.8630, Loss = 0.43.
+Generator: Teacher Loss= 0.0053, Student Loss= 0.0000, Diversity Loss = 0.5422, 
+
+
+-------------Round number:  54  -------------
+
+
+Average Global Accurancy = 0.8856, Loss = 0.37.
+Generator: Teacher Loss= 0.0052, Student Loss= 0.0000, Diversity Loss = 0.5377, 
+
+
+-------------Round number:  55  -------------
+
+
+Average Global Accurancy = 0.8787, Loss = 0.40.
+Generator: Teacher Loss= 0.0039, Student Loss= 0.0000, Diversity Loss = 0.5338, 
+
+
+-------------Round number:  56  -------------
+
+
+Average Global Accurancy = 0.9065, Loss = 0.31.
+Generator: Teacher Loss= 0.0049, Student Loss= 0.0000, Diversity Loss = 0.5297, 
+
+
+-------------Round number:  57  -------------
+
+
+Average Global Accurancy = 0.9015, Loss = 0.33.
+Generator: Teacher Loss= 0.0057, Student Loss= 0.0000, Diversity Loss = 0.5350, 
+
+
+-------------Round number:  58  -------------
+
+
+Average Global Accurancy = 0.8672, Loss = 0.42.
+Generator: Teacher Loss= 0.0065, Student Loss= 0.0000, Diversity Loss = 0.5318, 
+
+
+-------------Round number:  59  -------------
+
+
+Average Global Accurancy = 0.8966, Loss = 0.35.
+Generator: Teacher Loss= 0.0053, Student Loss= 0.0000, Diversity Loss = 0.5185, 
+
+
+-------------Round number:  60  -------------
+
+
+Average Global Accurancy = 0.9030, Loss = 0.32.
+
+User Teacher Loss=0.0088, Latent Loss=0.2146
+Generator: Teacher Loss= 0.0064, Student Loss= 0.0000, Diversity Loss = 0.5145, 
+
+
+-------------Round number:  61  -------------
+
+
+Average Global Accurancy = 0.8689, Loss = 0.41.
+Generator: Teacher Loss= 0.0053, Student Loss= 0.0000, Diversity Loss = 0.5132, 
+
+
+-------------Round number:  62  -------------
+
+
+Average Global Accurancy = 0.9143, Loss = 0.29.
+Generator: Teacher Loss= 0.0064, Student Loss= 0.0000, Diversity Loss = 0.5089, 
+
+
+-------------Round number:  63  -------------
+
+
+Average Global Accurancy = 0.9158, Loss = 0.28.
+
+User Teacher Loss=0.0098, Latent Loss=0.1207
+Generator: Teacher Loss= 0.0064, Student Loss= 0.0000, Diversity Loss = 0.5052, 
+
+
+-------------Round number:  64  -------------
+
+
+Average Global Accurancy = 0.9047, Loss = 0.32.
+
+User Teacher Loss=0.0078, Latent Loss=0.1508
+Generator: Teacher Loss= 0.0081, Student Loss= 0.0000, Diversity Loss = 0.5081, 
+
+
+-------------Round number:  65  -------------
+
+
+Average Global Accurancy = 0.9161, Loss = 0.29.
+Generator: Teacher Loss= 0.0085, Student Loss= 0.0000, Diversity Loss = 0.5010, 
+
+
+-------------Round number:  66  -------------
+
+
+Average Global Accurancy = 0.9267, Loss = 0.26.
+Generator: Teacher Loss= 0.0071, Student Loss= 0.0000, Diversity Loss = 0.4964, 
+
+
+-------------Round number:  67  -------------
+
+
+Average Global Accurancy = 0.9233, Loss = 0.27.
+Generator: Teacher Loss= 0.0086, Student Loss= 0.0000, Diversity Loss = 0.4898, 
+
+
+-------------Round number:  68  -------------
+
+
+Average Global Accurancy = 0.8694, Loss = 0.40.
+Generator: Teacher Loss= 0.0099, Student Loss= 0.0000, Diversity Loss = 0.5052, 
+
+
+-------------Round number:  69  -------------
+
+
+Average Global Accurancy = 0.8788, Loss = 0.38.
+Generator: Teacher Loss= 0.0121, Student Loss= 0.0000, Diversity Loss = 0.4855, 
+
+
+-------------Round number:  70  -------------
+
+
+Average Global Accurancy = 0.9086, Loss = 0.32.
+Generator: Teacher Loss= 0.0084, Student Loss= 0.0000, Diversity Loss = 0.4843, 
+
+
+-------------Round number:  71  -------------
+
+
+Average Global Accurancy = 0.8787, Loss = 0.38.
+Generator: Teacher Loss= 0.0087, Student Loss= 0.0000, Diversity Loss = 0.4776, 
+
+
+-------------Round number:  72  -------------
+
+
+Average Global Accurancy = 0.8918, Loss = 0.34.
+Generator: Teacher Loss= 0.0093, Student Loss= 0.0000, Diversity Loss = 0.4750, 
+
+
+-------------Round number:  73  -------------
+
+
+Average Global Accurancy = 0.9180, Loss = 0.27.
+Generator: Teacher Loss= 0.0082, Student Loss= 0.0000, Diversity Loss = 0.4751, 
+
+
+-------------Round number:  74  -------------
+
+
+Average Global Accurancy = 0.8999, Loss = 0.31.
+Generator: Teacher Loss= 0.0103, Student Loss= 0.0000, Diversity Loss = 0.4694, 
+
+
+-------------Round number:  75  -------------
+
+
+Average Global Accurancy = 0.9067, Loss = 0.30.
+Generator: Teacher Loss= 0.0094, Student Loss= 0.0000, Diversity Loss = 0.4691, 
+
+
+-------------Round number:  76  -------------
+
+
+Average Global Accurancy = 0.9146, Loss = 0.27.
+Generator: Teacher Loss= 0.0134, Student Loss= 0.0000, Diversity Loss = 0.4793, 
+
+
+-------------Round number:  77  -------------
+
+
+Average Global Accurancy = 0.9184, Loss = 0.26.
+Generator: Teacher Loss= 0.0248, Student Loss= 0.0000, Diversity Loss = 0.5306, 
+
+
+-------------Round number:  78  -------------
+
+
+Average Global Accurancy = 0.9013, Loss = 0.30.
+
+User Teacher Loss=0.0186, Latent Loss=0.4020
+Generator: Teacher Loss= 0.0109, Student Loss= 0.0000, Diversity Loss = 0.4715, 
+
+
+-------------Round number:  79  -------------
+
+
+Average Global Accurancy = 0.9182, Loss = 0.27.
+Generator: Teacher Loss= 0.0092, Student Loss= 0.0000, Diversity Loss = 0.4649, 
+
+
+-------------Round number:  80  -------------
+
+
+Average Global Accurancy = 0.9184, Loss = 0.27.
+Generator: Teacher Loss= 0.0108, Student Loss= 0.0000, Diversity Loss = 0.4614, 
+
+
+-------------Round number:  81  -------------
+
+
+Average Global Accurancy = 0.9152, Loss = 0.28.
+Generator: Teacher Loss= 0.0084, Student Loss= 0.0000, Diversity Loss = 0.4577, 
+
+
+-------------Round number:  82  -------------
+
+
+Average Global Accurancy = 0.9284, Loss = 0.26.
+
+User Teacher Loss=0.0094, Latent Loss=0.1830
+Generator: Teacher Loss= 0.0113, Student Loss= 0.0000, Diversity Loss = 0.4565, 
+
+
+-------------Round number:  83  -------------
+
+
+Average Global Accurancy = 0.9231, Loss = 0.27.
+Generator: Teacher Loss= 0.0102, Student Loss= 0.0000, Diversity Loss = 0.4533, 
+
+
+-------------Round number:  84  -------------
+
+
+Average Global Accurancy = 0.9222, Loss = 0.27.
+Generator: Teacher Loss= 0.0212, Student Loss= 0.0000, Diversity Loss = 0.4713, 
+
+
+-------------Round number:  85  -------------
+
+
+Average Global Accurancy = 0.9259, Loss = 0.24.
+Generator: Teacher Loss= 0.0139, Student Loss= 0.0000, Diversity Loss = 0.4597, 
+
+
+-------------Round number:  86  -------------
+
+
+Average Global Accurancy = 0.9124, Loss = 0.29.
+Generator: Teacher Loss= 0.0113, Student Loss= 0.0000, Diversity Loss = 0.4521, 
+
+
+-------------Round number:  87  -------------
+
+
+Average Global Accurancy = 0.9103, Loss = 0.29.
+Generator: Teacher Loss= 0.0137, Student Loss= 0.0000, Diversity Loss = 0.4650, 
+
+
+-------------Round number:  88  -------------
+
+
+Average Global Accurancy = 0.9184, Loss = 0.27.
+
+User Teacher Loss=0.0085, Latent Loss=0.0680
+Generator: Teacher Loss= 0.0192, Student Loss= 0.0000, Diversity Loss = 0.4677, 
+
+
+-------------Round number:  89  -------------
+
+
+Average Global Accurancy = 0.9205, Loss = 0.27.
+Generator: Teacher Loss= 0.0114, Student Loss= 0.0000, Diversity Loss = 0.4612, 
+
+
+-------------Round number:  90  -------------
+
+
+Average Global Accurancy = 0.9194, Loss = 0.27.
+Generator: Teacher Loss= 0.0151, Student Loss= 0.0000, Diversity Loss = 0.4592, 
+
+
+-------------Round number:  91  -------------
+
+
+Average Global Accurancy = 0.9169, Loss = 0.27.
+Generator: Teacher Loss= 0.0123, Student Loss= 0.0000, Diversity Loss = 0.4530, 
+
+
+-------------Round number:  92  -------------
+
+
+Average Global Accurancy = 0.9192, Loss = 0.27.
+Generator: Teacher Loss= 0.0144, Student Loss= 0.0000, Diversity Loss = 0.4569, 
+
+
+-------------Round number:  93  -------------
+
+
+Average Global Accurancy = 0.9256, Loss = 0.26.
+
+User Teacher Loss=0.0083, Latent Loss=0.0986
+Generator: Teacher Loss= 0.0113, Student Loss= 0.0000, Diversity Loss = 0.4512, 
+
+
+-------------Round number:  94  -------------
+
+
+Average Global Accurancy = 0.9199, Loss = 0.28.
+Generator: Teacher Loss= 0.0134, Student Loss= 0.0000, Diversity Loss = 0.4599, 
+
+
+-------------Round number:  95  -------------
+
+
+Average Global Accurancy = 0.9128, Loss = 0.29.
+
+User Teacher Loss=0.0082, Latent Loss=0.1991
+Generator: Teacher Loss= 0.0114, Student Loss= 0.0000, Diversity Loss = 0.4472, 
+
+
+-------------Round number:  96  -------------
+
+
+Average Global Accurancy = 0.9290, Loss = 0.24.
+Generator: Teacher Loss= 0.0150, Student Loss= 0.0000, Diversity Loss = 0.4595, 
+
+
+-------------Round number:  97  -------------
+
+
+Average Global Accurancy = 0.9252, Loss = 0.25.
+Generator: Teacher Loss= 0.0107, Student Loss= 0.0000, Diversity Loss = 0.4462, 
+
+
+-------------Round number:  98  -------------
+
+
+Average Global Accurancy = 0.9273, Loss = 0.25.
+
+User Teacher Loss=0.0082, Latent Loss=0.0565
+Generator: Teacher Loss= 0.0244, Student Loss= 0.0000, Diversity Loss = 0.4869, 
+
+
+-------------Round number:  99  -------------
+
+
+Average Global Accurancy = 0.9175, Loss = 0.27.
+Generator: Teacher Loss= 0.0163, Student Loss= 0.0000, Diversity Loss = 0.4524, 
+
+
+         [ Start training iteration 2 ]           
+
+
+Creating model for mnist
+Network configs: [6, 16, 'F']
+Dataset mnist
+Build layer 42 X 256
+Build last layer 256 X 32
+ensemble_lr: 0.0003
+ensemble_batch_size: 128
+unique_labels: 10
+latent_layer_idx: -1
+label embedding 0
+ensemeble learning rate: 0.0003
+ensemeble alpha = 1, beta = 0, eta = 1
+generator alpha = 10, beta = 10
+Number of Train/Test samples: 15000 5307
+Data from 20 users in total.
+Finished creating FedAvg server.
+
+
+-------------Round number:  0  -------------
+
+
+Average Global Accurancy = 0.1479, Loss = 2.31.
+Generator: Teacher Loss= 2.0572, Student Loss= 0.0000, Diversity Loss = 0.9358, 
+
+
+-------------Round number:  1  -------------
+
+
+Average Global Accurancy = 0.1117, Loss = 2.29.
+Generator: Teacher Loss= 0.9367, Student Loss= 0.0000, Diversity Loss = 0.9108, 
+
+
+-------------Round number:  2  -------------
+
+
+Average Global Accurancy = 0.1470, Loss = 2.29.
+Generator: Teacher Loss= 0.7065, Student Loss= 0.0000, Diversity Loss = 0.8876, 
+
+
+-------------Round number:  3  -------------
+
+
+Average Global Accurancy = 0.1408, Loss = 2.29.
+Generator: Teacher Loss= 0.3414, Student Loss= 0.0000, Diversity Loss = 0.8654, 
+
+
+-------------Round number:  4  -------------
+
+
+Average Global Accurancy = 0.0987, Loss = 2.29.
+
+User Teacher Loss=1.5579, Latent Loss=7.8624
+Generator: Teacher Loss= 0.1356, Student Loss= 0.0000, Diversity Loss = 0.8393, 
+
+
+-------------Round number:  5  -------------
+
+
+Average Global Accurancy = 0.1295, Loss = 2.21.
+Generator: Teacher Loss= 0.0687, Student Loss= 0.0000, Diversity Loss = 0.8254, 
+
+
+-------------Round number:  6  -------------
+
+
+Average Global Accurancy = 0.2761, Loss = 2.11.
+Generator: Teacher Loss= 0.0324, Student Loss= 0.0000, Diversity Loss = 0.8149, 
+
+
+-------------Round number:  7  -------------
+
+
+Average Global Accurancy = 0.2977, Loss = 2.08.
+
+User Teacher Loss=0.1652, Latent Loss=2.8621
+Generator: Teacher Loss= 0.0232, Student Loss= 0.0000, Diversity Loss = 0.8055, 
+
+
+-------------Round number:  8  -------------
+
+
+Average Global Accurancy = 0.3554, Loss = 1.86.
+Generator: Teacher Loss= 0.0181, Student Loss= 0.0000, Diversity Loss = 0.7966, 
+
+
+-------------Round number:  9  -------------
+
+
+Average Global Accurancy = 0.3861, Loss = 1.69.
+Generator: Teacher Loss= 0.0128, Student Loss= 0.0000, Diversity Loss = 0.7870, 
+
+
+-------------Round number:  10  -------------
+
+
+Average Global Accurancy = 0.3239, Loss = 1.85.
+Generator: Teacher Loss= 0.0082, Student Loss= 0.0000, Diversity Loss = 0.7800, 
+
+
+-------------Round number:  11  -------------
+
+
+Average Global Accurancy = 0.4027, Loss = 1.74.
+Generator: Teacher Loss= 0.0101, Student Loss= 0.0000, Diversity Loss = 0.7727, 
+
+
+-------------Round number:  12  -------------
+
+
+Average Global Accurancy = 0.5606, Loss = 1.34.
+Generator: Teacher Loss= 0.0118, Student Loss= 0.0000, Diversity Loss = 0.7759, 
+
+
+-------------Round number:  13  -------------
+
+
+Average Global Accurancy = 0.5512, Loss = 1.34.
+Generator: Teacher Loss= 0.0054, Student Loss= 0.0000, Diversity Loss = 0.7543, 
+
+
+-------------Round number:  14  -------------
+
+
+Average Global Accurancy = 0.5448, Loss = 1.31.
+
+User Teacher Loss=0.0223, Latent Loss=0.5052
+Generator: Teacher Loss= 0.0038, Student Loss= 0.0000, Diversity Loss = 0.7490, 
+
+
+-------------Round number:  15  -------------
+
+
+Average Global Accurancy = 0.5969, Loss = 1.30.
+Generator: Teacher Loss= 0.0034, Student Loss= 0.0000, Diversity Loss = 0.7376, 
+
+
+-------------Round number:  16  -------------
+
+
+Average Global Accurancy = 0.5630, Loss = 1.31.
+Generator: Teacher Loss= 0.0050, Student Loss= 0.0000, Diversity Loss = 0.7286, 
+
+
+-------------Round number:  17  -------------
+
+
+Average Global Accurancy = 0.3863, Loss = 1.89.
+
+User Teacher Loss=0.0547, Latent Loss=3.0706
+Generator: Teacher Loss= 0.0033, Student Loss= 0.0000, Diversity Loss = 0.7299, 
+
+
+-------------Round number:  18  -------------
+
+
+Average Global Accurancy = 0.6697, Loss = 0.98.
+Generator: Teacher Loss= 0.0027, Student Loss= 0.0000, Diversity Loss = 0.7154, 
+
+
+-------------Round number:  19  -------------
+
+
+Average Global Accurancy = 0.5464, Loss = 1.21.
+Generator: Teacher Loss= 0.0021, Student Loss= 0.0000, Diversity Loss = 0.7065, 
+
+
+-------------Round number:  20  -------------
+
+
+Average Global Accurancy = 0.7631, Loss = 0.78.
+Generator: Teacher Loss= 0.0012, Student Loss= 0.0000, Diversity Loss = 0.7140, 
+
+
+-------------Round number:  21  -------------
+
+
+Average Global Accurancy = 0.7160, Loss = 0.84.
+Generator: Teacher Loss= 0.0013, Student Loss= 0.0000, Diversity Loss = 0.6879, 
+
+
+-------------Round number:  22  -------------
+
+
+Average Global Accurancy = 0.6094, Loss = 1.28.
+Generator: Teacher Loss= 0.0023, Student Loss= 0.0000, Diversity Loss = 0.7274, 
+
+
+-------------Round number:  23  -------------
+
+
+Average Global Accurancy = 0.7940, Loss = 0.66.
+Generator: Teacher Loss= 0.0010, Student Loss= 0.0000, Diversity Loss = 0.6864, 
+
+
+-------------Round number:  24  -------------
+
+
+Average Global Accurancy = 0.7777, Loss = 0.66.
+Generator: Teacher Loss= 0.0015, Student Loss= 0.0000, Diversity Loss = 0.6692, 
+
+
+-------------Round number:  25  -------------
+
+
+Average Global Accurancy = 0.7015, Loss = 0.87.
+Generator: Teacher Loss= 0.0007, Student Loss= 0.0000, Diversity Loss = 0.6572, 
+
+
+-------------Round number:  26  -------------
+
+
+Average Global Accurancy = 0.7656, Loss = 0.66.
+Generator: Teacher Loss= 0.0030, Student Loss= 0.0000, Diversity Loss = 0.6543, 
+
+
+-------------Round number:  27  -------------
+
+
+Average Global Accurancy = 0.7104, Loss = 0.81.
+Generator: Teacher Loss= 0.0012, Student Loss= 0.0000, Diversity Loss = 0.6484, 
+
+
+-------------Round number:  28  -------------
+
+
+Average Global Accurancy = 0.7692, Loss = 0.64.
+Generator: Teacher Loss= 0.0020, Student Loss= 0.0000, Diversity Loss = 0.6450, 
+
+
+-------------Round number:  29  -------------
+
+
+Average Global Accurancy = 0.8178, Loss = 0.53.
+
+User Teacher Loss=0.0047, Latent Loss=0.8303
+Generator: Teacher Loss= 0.0014, Student Loss= 0.0000, Diversity Loss = 0.6396, 
+
+
+-------------Round number:  30  -------------
+
+
+Average Global Accurancy = 0.8240, Loss = 0.56.
+
+User Teacher Loss=0.0037, Latent Loss=1.2110
+Generator: Teacher Loss= 0.0032, Student Loss= 0.0000, Diversity Loss = 0.6364, 
+
+
+-------------Round number:  31  -------------
+
+
+Average Global Accurancy = 0.8506, Loss = 0.49.
+Generator: Teacher Loss= 0.0020, Student Loss= 0.0000, Diversity Loss = 0.6804, 
+
+
+-------------Round number:  32  -------------
+
+
+Average Global Accurancy = 0.8381, Loss = 0.49.
+
+User Teacher Loss=0.0061, Latent Loss=0.7768
+Generator: Teacher Loss= 0.0022, Student Loss= 0.0000, Diversity Loss = 0.6237, 
+
+
+-------------Round number:  33  -------------
+
+
+Average Global Accurancy = 0.8477, Loss = 0.47.
+
+User Teacher Loss=0.0056, Latent Loss=0.6001
+Generator: Teacher Loss= 0.0014, Student Loss= 0.0000, Diversity Loss = 0.6166, 
+
+
+-------------Round number:  34  -------------
+
+
+Average Global Accurancy = 0.8428, Loss = 0.47.
+Generator: Teacher Loss= 0.0042, Student Loss= 0.0000, Diversity Loss = 0.6190, 
+
+
+-------------Round number:  35  -------------
+
+
+Average Global Accurancy = 0.6972, Loss = 0.93.
+Generator: Teacher Loss= 0.0024, Student Loss= 0.0000, Diversity Loss = 0.6112, 
+
+
+-------------Round number:  36  -------------
+
+
+Average Global Accurancy = 0.7690, Loss = 0.65.
+Generator: Teacher Loss= 0.0032, Student Loss= 0.0000, Diversity Loss = 0.6459, 
+
+
+-------------Round number:  37  -------------
+
+
+Average Global Accurancy = 0.8300, Loss = 0.51.
+
+User Teacher Loss=0.0067, Latent Loss=0.6716
+Generator: Teacher Loss= 0.0056, Student Loss= 0.0000, Diversity Loss = 0.6098, 
+
+
+-------------Round number:  38  -------------
+
+
+Average Global Accurancy = 0.8221, Loss = 0.54.
+Generator: Teacher Loss= 0.0036, Student Loss= 0.0000, Diversity Loss = 0.6164, 
+
+
+-------------Round number:  39  -------------
+
+
+Average Global Accurancy = 0.8080, Loss = 0.54.
+
+User Teacher Loss=0.0082, Latent Loss=0.7296
+Generator: Teacher Loss= 0.0025, Student Loss= 0.0000, Diversity Loss = 0.6002, 
+
+
+-------------Round number:  40  -------------
+
+
+Average Global Accurancy = 0.8890, Loss = 0.38.
+Generator: Teacher Loss= 0.0031, Student Loss= 0.0000, Diversity Loss = 0.6038, 
+
+
+-------------Round number:  41  -------------
+
+
+Average Global Accurancy = 0.8768, Loss = 0.39.
+Generator: Teacher Loss= 0.0034, Student Loss= 0.0000, Diversity Loss = 0.5837, 
+
+
+-------------Round number:  42  -------------
+
+
+Average Global Accurancy = 0.8517, Loss = 0.45.
+Generator: Teacher Loss= 0.0033, Student Loss= 0.0000, Diversity Loss = 0.5874, 
+
+
+-------------Round number:  43  -------------
+
+
+Average Global Accurancy = 0.8933, Loss = 0.36.
+Generator: Teacher Loss= 0.0029, Student Loss= 0.0000, Diversity Loss = 0.5800, 
+
+
+-------------Round number:  44  -------------
+
+
+Average Global Accurancy = 0.8922, Loss = 0.37.
+Generator: Teacher Loss= 0.0048, Student Loss= 0.0000, Diversity Loss = 0.5900, 
+
+
+-------------Round number:  45  -------------
+
+
+Average Global Accurancy = 0.7647, Loss = 0.68.
+Generator: Teacher Loss= 0.0040, Student Loss= 0.0000, Diversity Loss = 0.5737, 
+
+
+-------------Round number:  46  -------------
+
+
+Average Global Accurancy = 0.8687, Loss = 0.43.
+
+User Teacher Loss=0.0094, Latent Loss=0.6135
+Generator: Teacher Loss= 0.0059, Student Loss= 0.0000, Diversity Loss = 0.5656, 
+
+
+-------------Round number:  47  -------------
+
+
+Average Global Accurancy = 0.9031, Loss = 0.34.
+Generator: Teacher Loss= 0.0034, Student Loss= 0.0000, Diversity Loss = 0.5702, 
+
+
+-------------Round number:  48  -------------
+
+
+Average Global Accurancy = 0.8977, Loss = 0.35.
+Generator: Teacher Loss= 0.0073, Student Loss= 0.0000, Diversity Loss = 0.5653, 
+
+
+-------------Round number:  49  -------------
+
+
+Average Global Accurancy = 0.8896, Loss = 0.38.
+Generator: Teacher Loss= 0.0058, Student Loss= 0.0000, Diversity Loss = 0.5881, 
+
+
+-------------Round number:  50  -------------
+
+
+Average Global Accurancy = 0.8862, Loss = 0.36.
+Generator: Teacher Loss= 0.0050, Student Loss= 0.0000, Diversity Loss = 0.5821, 
+
+
+-------------Round number:  51  -------------
+
+
+Average Global Accurancy = 0.8939, Loss = 0.34.
+Generator: Teacher Loss= 0.0054, Student Loss= 0.0000, Diversity Loss = 0.5480, 
+
+
+-------------Round number:  52  -------------
+
+
+Average Global Accurancy = 0.8901, Loss = 0.35.
+Generator: Teacher Loss= 0.0059, Student Loss= 0.0000, Diversity Loss = 0.5511, 
+
+
+-------------Round number:  53  -------------
+
+
+Average Global Accurancy = 0.8781, Loss = 0.38.
+Generator: Teacher Loss= 0.0055, Student Loss= 0.0000, Diversity Loss = 0.5533, 
+
+
+-------------Round number:  54  -------------
+
+
+Average Global Accurancy = 0.8638, Loss = 0.42.
+Generator: Teacher Loss= 0.0047, Student Loss= 0.0000, Diversity Loss = 0.5515, 
+
+
+-------------Round number:  55  -------------
+
+
+Average Global Accurancy = 0.8901, Loss = 0.35.
+Generator: Teacher Loss= 0.0065, Student Loss= 0.0000, Diversity Loss = 0.5466, 
+
+
+-------------Round number:  56  -------------
+
+
+Average Global Accurancy = 0.8839, Loss = 0.37.
+Generator: Teacher Loss= 0.0080, Student Loss= 0.0000, Diversity Loss = 0.5715, 
+
+
+-------------Round number:  57  -------------
+
+
+Average Global Accurancy = 0.8832, Loss = 0.37.
+Generator: Teacher Loss= 0.0047, Student Loss= 0.0000, Diversity Loss = 0.5354, 
+
+
+-------------Round number:  58  -------------
+
+
+Average Global Accurancy = 0.8864, Loss = 0.36.
+Generator: Teacher Loss= 0.0057, Student Loss= 0.0000, Diversity Loss = 0.5492, 
+
+
+-------------Round number:  59  -------------
+
+
+Average Global Accurancy = 0.9024, Loss = 0.32.
+
+User Teacher Loss=0.0073, Latent Loss=0.1376
+Generator: Teacher Loss= 0.0056, Student Loss= 0.0000, Diversity Loss = 0.5366, 
+
+
+-------------Round number:  60  -------------
+
+
+Average Global Accurancy = 0.8952, Loss = 0.35.
+Generator: Teacher Loss= 0.0079, Student Loss= 0.0000, Diversity Loss = 0.5201, 
+
+
+-------------Round number:  61  -------------
+
+
+Average Global Accurancy = 0.8670, Loss = 0.42.
+Generator: Teacher Loss= 0.0087, Student Loss= 0.0000, Diversity Loss = 0.5274, 
+
+
+-------------Round number:  62  -------------
+
+
+Average Global Accurancy = 0.8964, Loss = 0.34.
+
+User Teacher Loss=0.0093, Latent Loss=0.3180
+Generator: Teacher Loss= 0.0047, Student Loss= 0.0000, Diversity Loss = 0.5298, 
+
+
+-------------Round number:  63  -------------
+
+
+Average Global Accurancy = 0.9086, Loss = 0.30.
+Generator: Teacher Loss= 0.0081, Student Loss= 0.0000, Diversity Loss = 0.5494, 
+
+
+-------------Round number:  64  -------------
+
+
+Average Global Accurancy = 0.9052, Loss = 0.31.
+
+User Teacher Loss=0.0072, Latent Loss=0.2803
+Generator: Teacher Loss= 0.0315, Student Loss= 0.0000, Diversity Loss = 0.5568, 
+
+
+-------------Round number:  65  -------------
+
+
+Average Global Accurancy = 0.9013, Loss = 0.32.
+Generator: Teacher Loss= 0.0090, Student Loss= 0.0000, Diversity Loss = 0.5252, 
+
+
+-------------Round number:  66  -------------
+
+
+Average Global Accurancy = 0.8924, Loss = 0.33.
+
+User Teacher Loss=0.0104, Latent Loss=0.1300
+Generator: Teacher Loss= 0.0080, Student Loss= 0.0000, Diversity Loss = 0.5212, 
+
+
+-------------Round number:  67  -------------
+
+
+Average Global Accurancy = 0.8949, Loss = 0.34.
+Generator: Teacher Loss= 0.0087, Student Loss= 0.0000, Diversity Loss = 0.5229, 
+
+
+-------------Round number:  68  -------------
+
+
+Average Global Accurancy = 0.8779, Loss = 0.38.
+Generator: Teacher Loss= 0.0136, Student Loss= 0.0000, Diversity Loss = 0.5601, 
+
+
+-------------Round number:  69  -------------
+
+
+Average Global Accurancy = 0.8999, Loss = 0.33.
+Generator: Teacher Loss= 0.0115, Student Loss= 0.0000, Diversity Loss = 0.5369, 
+
+
+-------------Round number:  70  -------------
+
+
+Average Global Accurancy = 0.9043, Loss = 0.31.
+Generator: Teacher Loss= 0.0148, Student Loss= 0.0000, Diversity Loss = 0.5527, 
+
+
+-------------Round number:  71  -------------
+
+
+Average Global Accurancy = 0.9092, Loss = 0.30.
+Generator: Teacher Loss= 0.0070, Student Loss= 0.0000, Diversity Loss = 0.5270, 
+
+
+-------------Round number:  72  -------------
+
+
+Average Global Accurancy = 0.8901, Loss = 0.34.
+Generator: Teacher Loss= 0.0073, Student Loss= 0.0000, Diversity Loss = 0.5224, 
+
+
+-------------Round number:  73  -------------
+
+
+Average Global Accurancy = 0.8856, Loss = 0.35.
+
+User Teacher Loss=0.0074, Latent Loss=0.1948
+Generator: Teacher Loss= 0.0092, Student Loss= 0.0000, Diversity Loss = 0.5091, 
+
+
+-------------Round number:  74  -------------
+
+
+Average Global Accurancy = 0.8832, Loss = 0.38.
+Generator: Teacher Loss= 0.0077, Student Loss= 0.0000, Diversity Loss = 0.5138, 
+
+
+-------------Round number:  75  -------------
+
+
+Average Global Accurancy = 0.8945, Loss = 0.34.
+Generator: Teacher Loss= 0.0061, Student Loss= 0.0000, Diversity Loss = 0.5169, 
+
+
+-------------Round number:  76  -------------
+
+
+Average Global Accurancy = 0.8592, Loss = 0.40.
+Generator: Teacher Loss= 0.0071, Student Loss= 0.0000, Diversity Loss = 0.5651, 
+
+
+-------------Round number:  77  -------------
+
+
+Average Global Accurancy = 0.8941, Loss = 0.33.
+Generator: Teacher Loss= 0.0076, Student Loss= 0.0000, Diversity Loss = 0.5088, 
+
+
+-------------Round number:  78  -------------
+
+
+Average Global Accurancy = 0.8982, Loss = 0.34.
+Generator: Teacher Loss= 0.0074, Student Loss= 0.0000, Diversity Loss = 0.5100, 
+
+
+-------------Round number:  79  -------------
+
+
+Average Global Accurancy = 0.8888, Loss = 0.37.
+
+User Teacher Loss=0.0084, Latent Loss=0.1597
+Generator: Teacher Loss= 0.0096, Student Loss= 0.0000, Diversity Loss = 0.5070, 
+
+
+-------------Round number:  80  -------------
+
+
+Average Global Accurancy = 0.9112, Loss = 0.30.
+Generator: Teacher Loss= 0.0069, Student Loss= 0.0000, Diversity Loss = 0.5214, 
+
+
+-------------Round number:  81  -------------
+
+
+Average Global Accurancy = 0.9226, Loss = 0.27.
+Generator: Teacher Loss= 0.0104, Student Loss= 0.0000, Diversity Loss = 0.5056, 
+
+
+-------------Round number:  82  -------------
+
+
+Average Global Accurancy = 0.9156, Loss = 0.28.
+Generator: Teacher Loss= 0.0113, Student Loss= 0.0000, Diversity Loss = 0.5031, 
+
+
+-------------Round number:  83  -------------
+
+
+Average Global Accurancy = 0.9233, Loss = 0.27.
+Generator: Teacher Loss= 0.0126, Student Loss= 0.0000, Diversity Loss = 0.4956, 
+
+
+-------------Round number:  84  -------------
+
+
+Average Global Accurancy = 0.9163, Loss = 0.28.
+Generator: Teacher Loss= 0.0085, Student Loss= 0.0000, Diversity Loss = 0.4990, 
+
+
+-------------Round number:  85  -------------
+
+
+Average Global Accurancy = 0.9114, Loss = 0.29.
+Generator: Teacher Loss= 0.0092, Student Loss= 0.0000, Diversity Loss = 0.4987, 
+
+
+-------------Round number:  86  -------------
+
+
+Average Global Accurancy = 0.9271, Loss = 0.27.
+Generator: Teacher Loss= 0.0130, Student Loss= 0.0000, Diversity Loss = 0.5368, 
+
+
+-------------Round number:  87  -------------
+
+
+Average Global Accurancy = 0.9175, Loss = 0.28.
+Generator: Teacher Loss= 0.0101, Student Loss= 0.0000, Diversity Loss = 0.5049, 
+
+
+-------------Round number:  88  -------------
+
+
+Average Global Accurancy = 0.9137, Loss = 0.30.
+Generator: Teacher Loss= 0.0095, Student Loss= 0.0000, Diversity Loss = 0.5420, 
+
+
+-------------Round number:  89  -------------
+
+
+Average Global Accurancy = 0.9114, Loss = 0.29.
+
+User Teacher Loss=0.0066, Latent Loss=0.1384
+Generator: Teacher Loss= 0.0153, Student Loss= 0.0000, Diversity Loss = 0.4967, 
+
+
+-------------Round number:  90  -------------
+
+
+Average Global Accurancy = 0.9146, Loss = 0.30.
+Generator: Teacher Loss= 0.0097, Student Loss= 0.0000, Diversity Loss = 0.4939, 
+
+
+-------------Round number:  91  -------------
+
+
+Average Global Accurancy = 0.9205, Loss = 0.28.
+Generator: Teacher Loss= 0.0214, Student Loss= 0.0000, Diversity Loss = 0.5802, 
+
+
+-------------Round number:  92  -------------
+
+
+Average Global Accurancy = 0.9244, Loss = 0.26.
+Generator: Teacher Loss= 0.0082, Student Loss= 0.0000, Diversity Loss = 0.5066, 
+
+
+-------------Round number:  93  -------------
+
+
+Average Global Accurancy = 0.9175, Loss = 0.28.
+Generator: Teacher Loss= 0.0090, Student Loss= 0.0000, Diversity Loss = 0.5027, 
+
+
+-------------Round number:  94  -------------
+
+
+Average Global Accurancy = 0.9275, Loss = 0.25.
+Generator: Teacher Loss= 0.0090, Student Loss= 0.0000, Diversity Loss = 0.5206, 
+
+
+-------------Round number:  95  -------------
+
+
+Average Global Accurancy = 0.9107, Loss = 0.30.
+Generator: Teacher Loss= 0.0129, Student Loss= 0.0000, Diversity Loss = 0.5601, 
+
+
+-------------Round number:  96  -------------
+
+
+Average Global Accurancy = 0.9175, Loss = 0.27.
+Generator: Teacher Loss= 0.0068, Student Loss= 0.0000, Diversity Loss = 0.5152, 
+
+
+-------------Round number:  97  -------------
+
+
+Average Global Accurancy = 0.9290, Loss = 0.25.
+Generator: Teacher Loss= 0.0094, Student Loss= 0.0000, Diversity Loss = 0.4993, 
+
+
+-------------Round number:  98  -------------
+
+
+Average Global Accurancy = 0.9118, Loss = 0.29.
+Generator: Teacher Loss= 0.0098, Student Loss= 0.0000, Diversity Loss = 0.5060, 
+
+
+-------------Round number:  99  -------------
+
+
+Average Global Accurancy = 0.9050, Loss = 0.30.
+Generator: Teacher Loss= 0.0087, Student Loss= 0.0000, Diversity Loss = 0.4957, 
+Finished training.

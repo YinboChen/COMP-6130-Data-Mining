@@ -1,0 +1,109 @@
+2021-11-30 11:29:33,272 - CRITICAL - 
+
+
+<<<<<<<-------------------------------NumOfFeaturesToRecover: 20------------------------------->>>>>>>
+2021-11-30 11:29:33,272 - CRITICAL - Running on device: cpu
+2021-11-30 11:29:33,272 - CRITICAL - Writing log to file: /home/yinbo/Desktop/comp6130/final project/final project/featureinference-vfl-master/GRNA/log/drive-2021-11-30-11-29-33-attacker-28-victim-20-mean-False-type-RF-predict-0.2.log
+2021-11-30 11:29:33,272 - CRITICAL - n_attacker = 28, n_victim = 20
+2021-11-30 11:29:33,273 - INFO - # By default, section names are case sensitive but keys are not
+# Config parsers do not guess datatypes of values in configuration files, always storing them internally as strings. 
+
+[DEFAULT]
+DataFile = drive_cleaned.csv
+LogFile = drive.log
+NumOfFeaturesOwnedByAttacker = 28
+NumOfFeaturesToRecover = 20
+RunningTimes = 10
+
+[DATASET]
+TrainPortion = 0.6
+TestPortion = 0.2
+PredictPortion = 0.2
+
+[DEFENCE]
+EnableConfidenceRounding = False
+RoundingPrecision = 1
+
+[GENERATOR]
+Epochs = 60
+EnableAttackerFeatures = True  
+EnableKnownMeanConstraint = False         
+KnownMeanLambda = 1.2
+UnknownVarLambda = 0.25
+
+# modeltype should be one of (LR, NN, RF)
+[CLASSIFIER]
+ModeType = RF
+# MUST SET: should be 2 for LR 
+ClassNum = 11
+Epochs = 60      
+
+    
+
+2021-11-30 11:29:33,273 - CRITICAL - 
+
+<----------------- Running count: 1 / 10 ----------------->
+
+
+2021-11-30 11:29:36,395 - CRITICAL - Dataset column permutation is: 
+ tensor([ 7, 31, 27, 47, 24,  2, 36, 25, 11,  9,  5, 12, 21,  3, 23, 38, 42, 45,
+        37, 34, 39,  0,  4, 40, 41,  6, 20, 14, 17, 30, 35, 28, 19, 26, 32, 22,
+        33, 46, 44, 15,  8, 10, 13, 29, 18,  1, 16, 43])
+2021-11-30 11:29:36,418 - CRITICAL - Creating dataset, len(samples): 58509; positive labels sum: 53190
+2021-11-30 11:29:36,427 - CRITICAL - For dataset /home/yinbo/Desktop/comp6130/final project/final project/featureinference-vfl-master/datasets/drive_cleaned.csv, dataset length: 58509
+2021-11-30 11:29:36,427 - CRITICAL - 
+[FUNCTION]: Splitting dataset by getSplittedDataset()......
+2021-11-30 11:29:36,427 - INFO - Display first (x, y) pair of dataset:
+ tensor([8.1753e-01, 3.6554e-01, 3.9434e-01, 1.1781e-01, 3.5851e-01, 7.2105e-01,
+        6.0996e-05, 5.0865e-01, 3.2505e-01, 3.2505e-01, 7.7792e-01, 1.3157e-04,
+        6.2360e-02, 8.9780e-01, 6.2405e-02, 2.0749e-02, 4.3299e-01, 1.1835e-01,
+        1.5917e-02, 6.3140e-01, 7.3337e-05, 7.0346e-01, 9.1003e-01, 3.9992e-03,
+        5.1032e-02, 8.2103e-01, 6.2769e-02, 2.3714e-03, 4.7071e-03, 3.5808e-01,
+        6.3767e-01, 5.2852e-01, 6.2719e-02, 4.1320e-01, 3.6990e-01, 6.2368e-02,
+        6.2594e-01, 1.2688e-01, 4.0469e-01, 1.1571e-04, 8.1294e-01, 3.2502e-01,
+        8.5679e-04, 5.0881e-01, 6.2715e-02, 5.4556e-01, 9.0313e-04, 4.2939e-01]), tensor(0.)
+2021-11-30 11:29:36,429 - INFO - Shape of (x, y): torch.Size([48]) torch.Size([])
+2021-11-30 11:29:36,432 - CRITICAL - len(trainset): 35105
+2021-11-30 11:29:36,433 - CRITICAL - len(testset): 11701
+2021-11-30 11:29:36,433 - CRITICAL - len(predictset): 11703
+2021-11-30 11:29:36,433 - INFO - len(trainloader): 549
+2021-11-30 11:29:36,433 - INFO - len(testloader): 183
+2021-11-30 11:29:36,433 - INFO - len(predictloader): 183
+2021-11-30 11:29:36,433 - CRITICAL - 
+[FUNCTION]: Creating GlobalClassifierTrainer......
+2021-11-30 11:29:36,433 - CRITICAL - Creating a model for type RF
+2021-11-30 11:29:36,433 - CRITICAL - Creating RandomForest, with n_estimators=100, max_depth=3
+2021-11-30 11:29:36,438 - INFO - Structure of Fake Random Forest: FakeRandomForest(
+  (dense): Sequential(
+    (0): Linear(in_features=48, out_features=2000, bias=True)
+    (1): Dropout(p=0.5, inplace=False)
+    (2): ReLU()
+    (3): Linear(in_features=2000, out_features=200, bias=True)
+    (4): Dropout(p=0.5, inplace=False)
+    (5): ReLU()
+    (6): Linear(in_features=200, out_features=11, bias=True)
+    (7): Sigmoid()
+  )
+)
+2021-11-30 11:29:36,438 - INFO - Structure of Global Classifier: RandomForestClassifier(max_depth=3, random_state=0)
+2021-11-30 11:29:36,439 - CRITICAL - 
+[FUNCTION]: Creating GeneratorTrainer......
+2021-11-30 11:29:36,439 - CRITICAL - Creating a generator
+2021-11-30 11:29:36,442 - INFO - Structure of Generator: Generator(
+  (net): Sequential(
+    (0): Linear(in_features=48, out_features=600, bias=True)
+    (1): LayerNorm((600,), eps=1e-05, elementwise_affine=True)
+    (2): ReLU()
+    (3): Linear(in_features=600, out_features=200, bias=True)
+    (4): LayerNorm((200,), eps=1e-05, elementwise_affine=True)
+    (5): ReLU()
+    (6): Linear(in_features=200, out_features=100, bias=True)
+    (7): LayerNorm((100,), eps=1e-05, elementwise_affine=True)
+    (8): ReLU()
+    (9): Linear(in_features=100, out_features=20, bias=True)
+    (10): Sigmoid()
+  )
+)
+2021-11-30 11:29:36,442 - CRITICAL - 
+[FUNCTION]: Training global classifier RF......
+2021-11-30 11:29:42,003 - CRITICAL - After training Random Forest, train accur is 0.7984617575843896, test accur is 0.7947184001367404.

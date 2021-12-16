@@ -1,0 +1,1845 @@
+================================================================================
+Summary of training process:
+Algorithm: FedAvg
+Batch size: 32
+Learing rate       : 0.01
+Ensemble learing rate       : 0.0001
+Average Moving       : 1.0
+Subset of users      : 3
+Number of global rounds       : 100
+Number of local rounds       : 20
+Dataset       : Mnist-alpha0.1-ratio0.2
+Local Model       : cnn
+Device            : cpu
+================================================================================
+
+
+         [ Start training iteration 0 ]           
+
+
+Creating model for mnist
+Network configs: [6, 16, 'F']
+Users in total: 20
+Number of users / total users: 3  /  20
+Finished creating FedAvg server.
+
+
+-------------Round number:  0  -------------
+
+
+Average Global Accurancy = 0.1284, Loss = 2.31.
+
+
+-------------Round number:  1  -------------
+
+
+Average Global Accurancy = 0.1340, Loss = 2.33.
+
+
+-------------Round number:  2  -------------
+
+
+Average Global Accurancy = 0.1204, Loss = 2.44.
+
+
+-------------Round number:  3  -------------
+
+
+Average Global Accurancy = 0.1233, Loss = 2.29.
+
+
+-------------Round number:  4  -------------
+
+
+Average Global Accurancy = 0.1146, Loss = 2.39.
+
+
+-------------Round number:  5  -------------
+
+
+Average Global Accurancy = 0.2031, Loss = 2.16.
+
+
+-------------Round number:  6  -------------
+
+
+Average Global Accurancy = 0.1913, Loss = 2.10.
+
+
+-------------Round number:  7  -------------
+
+
+Average Global Accurancy = 0.3325, Loss = 1.89.
+
+
+-------------Round number:  8  -------------
+
+
+Average Global Accurancy = 0.3781, Loss = 1.90.
+
+
+-------------Round number:  9  -------------
+
+
+Average Global Accurancy = 0.3232, Loss = 1.97.
+
+
+-------------Round number:  10  -------------
+
+
+Average Global Accurancy = 0.1956, Loss = 2.04.
+
+
+-------------Round number:  11  -------------
+
+
+Average Global Accurancy = 0.3933, Loss = 1.71.
+
+
+-------------Round number:  12  -------------
+
+
+Average Global Accurancy = 0.3379, Loss = 1.84.
+
+
+-------------Round number:  13  -------------
+
+
+Average Global Accurancy = 0.2639, Loss = 1.86.
+
+
+-------------Round number:  14  -------------
+
+
+Average Global Accurancy = 0.4414, Loss = 1.58.
+
+
+-------------Round number:  15  -------------
+
+
+Average Global Accurancy = 0.5275, Loss = 1.44.
+
+
+-------------Round number:  16  -------------
+
+
+Average Global Accurancy = 0.5525, Loss = 1.28.
+
+
+-------------Round number:  17  -------------
+
+
+Average Global Accurancy = 0.6512, Loss = 1.10.
+
+
+-------------Round number:  18  -------------
+
+
+Average Global Accurancy = 0.5879, Loss = 1.16.
+
+
+-------------Round number:  19  -------------
+
+
+Average Global Accurancy = 0.5782, Loss = 1.18.
+
+
+-------------Round number:  20  -------------
+
+
+Average Global Accurancy = 0.5189, Loss = 1.29.
+
+
+-------------Round number:  21  -------------
+
+
+Average Global Accurancy = 0.5922, Loss = 1.18.
+
+
+-------------Round number:  22  -------------
+
+
+Average Global Accurancy = 0.7858, Loss = 0.85.
+
+
+-------------Round number:  23  -------------
+
+
+Average Global Accurancy = 0.6955, Loss = 0.94.
+
+
+-------------Round number:  24  -------------
+
+
+Average Global Accurancy = 0.6982, Loss = 0.94.
+
+
+-------------Round number:  25  -------------
+
+
+Average Global Accurancy = 0.6349, Loss = 0.99.
+
+
+-------------Round number:  26  -------------
+
+
+Average Global Accurancy = 0.6926, Loss = 0.95.
+
+
+-------------Round number:  27  -------------
+
+
+Average Global Accurancy = 0.6990, Loss = 0.92.
+
+
+-------------Round number:  28  -------------
+
+
+Average Global Accurancy = 0.6681, Loss = 1.02.
+
+
+-------------Round number:  29  -------------
+
+
+Average Global Accurancy = 0.7174, Loss = 0.88.
+
+
+-------------Round number:  30  -------------
+
+
+Average Global Accurancy = 0.7627, Loss = 0.80.
+
+
+-------------Round number:  31  -------------
+
+
+Average Global Accurancy = 0.7702, Loss = 0.75.
+
+
+-------------Round number:  32  -------------
+
+
+Average Global Accurancy = 0.7499, Loss = 0.78.
+
+
+-------------Round number:  33  -------------
+
+
+Average Global Accurancy = 0.7712, Loss = 0.75.
+
+
+-------------Round number:  34  -------------
+
+
+Average Global Accurancy = 0.7695, Loss = 0.73.
+
+
+-------------Round number:  35  -------------
+
+
+Average Global Accurancy = 0.7594, Loss = 0.77.
+
+
+-------------Round number:  36  -------------
+
+
+Average Global Accurancy = 0.8151, Loss = 0.66.
+
+
+-------------Round number:  37  -------------
+
+
+Average Global Accurancy = 0.7578, Loss = 0.72.
+
+
+-------------Round number:  38  -------------
+
+
+Average Global Accurancy = 0.7897, Loss = 0.68.
+
+
+-------------Round number:  39  -------------
+
+
+Average Global Accurancy = 0.7860, Loss = 0.68.
+
+
+-------------Round number:  40  -------------
+
+
+Average Global Accurancy = 0.7794, Loss = 0.69.
+
+
+-------------Round number:  41  -------------
+
+
+Average Global Accurancy = 0.7755, Loss = 0.72.
+
+
+-------------Round number:  42  -------------
+
+
+Average Global Accurancy = 0.7730, Loss = 0.74.
+
+
+-------------Round number:  43  -------------
+
+
+Average Global Accurancy = 0.7252, Loss = 0.79.
+
+
+-------------Round number:  44  -------------
+
+
+Average Global Accurancy = 0.7271, Loss = 0.75.
+
+
+-------------Round number:  45  -------------
+
+
+Average Global Accurancy = 0.7627, Loss = 0.71.
+
+
+-------------Round number:  46  -------------
+
+
+Average Global Accurancy = 0.7757, Loss = 0.68.
+
+
+-------------Round number:  47  -------------
+
+
+Average Global Accurancy = 0.7586, Loss = 0.70.
+
+
+-------------Round number:  48  -------------
+
+
+Average Global Accurancy = 0.8386, Loss = 0.57.
+
+
+-------------Round number:  49  -------------
+
+
+Average Global Accurancy = 0.8345, Loss = 0.58.
+
+
+-------------Round number:  50  -------------
+
+
+Average Global Accurancy = 0.8376, Loss = 0.58.
+
+
+-------------Round number:  51  -------------
+
+
+Average Global Accurancy = 0.8386, Loss = 0.58.
+
+
+-------------Round number:  52  -------------
+
+
+Average Global Accurancy = 0.8361, Loss = 0.58.
+
+
+-------------Round number:  53  -------------
+
+
+Average Global Accurancy = 0.7910, Loss = 0.64.
+
+
+-------------Round number:  54  -------------
+
+
+Average Global Accurancy = 0.7856, Loss = 0.63.
+
+
+-------------Round number:  55  -------------
+
+
+Average Global Accurancy = 0.7600, Loss = 0.68.
+
+
+-------------Round number:  56  -------------
+
+
+Average Global Accurancy = 0.8145, Loss = 0.60.
+
+
+-------------Round number:  57  -------------
+
+
+Average Global Accurancy = 0.8279, Loss = 0.57.
+
+
+-------------Round number:  58  -------------
+
+
+Average Global Accurancy = 0.8143, Loss = 0.58.
+
+
+-------------Round number:  59  -------------
+
+
+Average Global Accurancy = 0.8402, Loss = 0.55.
+
+
+-------------Round number:  60  -------------
+
+
+Average Global Accurancy = 0.8571, Loss = 0.50.
+
+
+-------------Round number:  61  -------------
+
+
+Average Global Accurancy = 0.8374, Loss = 0.54.
+
+
+-------------Round number:  62  -------------
+
+
+Average Global Accurancy = 0.8483, Loss = 0.51.
+
+
+-------------Round number:  63  -------------
+
+
+Average Global Accurancy = 0.7924, Loss = 0.60.
+
+
+-------------Round number:  64  -------------
+
+
+Average Global Accurancy = 0.8075, Loss = 0.59.
+
+
+-------------Round number:  65  -------------
+
+
+Average Global Accurancy = 0.8165, Loss = 0.57.
+
+
+-------------Round number:  66  -------------
+
+
+Average Global Accurancy = 0.8215, Loss = 0.57.
+
+
+-------------Round number:  67  -------------
+
+
+Average Global Accurancy = 0.8505, Loss = 0.51.
+
+
+-------------Round number:  68  -------------
+
+
+Average Global Accurancy = 0.8596, Loss = 0.49.
+
+
+-------------Round number:  69  -------------
+
+
+Average Global Accurancy = 0.8489, Loss = 0.52.
+
+
+-------------Round number:  70  -------------
+
+
+Average Global Accurancy = 0.8619, Loss = 0.49.
+
+
+-------------Round number:  71  -------------
+
+
+Average Global Accurancy = 0.8604, Loss = 0.49.
+
+
+-------------Round number:  72  -------------
+
+
+Average Global Accurancy = 0.8555, Loss = 0.50.
+
+
+-------------Round number:  73  -------------
+
+
+Average Global Accurancy = 0.8470, Loss = 0.51.
+
+
+-------------Round number:  74  -------------
+
+
+Average Global Accurancy = 0.8592, Loss = 0.50.
+
+
+-------------Round number:  75  -------------
+
+
+Average Global Accurancy = 0.8388, Loss = 0.54.
+
+
+-------------Round number:  76  -------------
+
+
+Average Global Accurancy = 0.8549, Loss = 0.50.
+
+
+-------------Round number:  77  -------------
+
+
+Average Global Accurancy = 0.8592, Loss = 0.48.
+
+
+-------------Round number:  78  -------------
+
+
+Average Global Accurancy = 0.8606, Loss = 0.49.
+
+
+-------------Round number:  79  -------------
+
+
+Average Global Accurancy = 0.8299, Loss = 0.55.
+
+
+-------------Round number:  80  -------------
+
+
+Average Global Accurancy = 0.8442, Loss = 0.51.
+
+
+-------------Round number:  81  -------------
+
+
+Average Global Accurancy = 0.8483, Loss = 0.50.
+
+
+-------------Round number:  82  -------------
+
+
+Average Global Accurancy = 0.8458, Loss = 0.52.
+
+
+-------------Round number:  83  -------------
+
+
+Average Global Accurancy = 0.8273, Loss = 0.57.
+
+
+-------------Round number:  84  -------------
+
+
+Average Global Accurancy = 0.8635, Loss = 0.47.
+
+
+-------------Round number:  85  -------------
+
+
+Average Global Accurancy = 0.8402, Loss = 0.52.
+
+
+-------------Round number:  86  -------------
+
+
+Average Global Accurancy = 0.8600, Loss = 0.48.
+
+
+-------------Round number:  87  -------------
+
+
+Average Global Accurancy = 0.8518, Loss = 0.49.
+
+
+-------------Round number:  88  -------------
+
+
+Average Global Accurancy = 0.8501, Loss = 0.50.
+
+
+-------------Round number:  89  -------------
+
+
+Average Global Accurancy = 0.8275, Loss = 0.52.
+
+
+-------------Round number:  90  -------------
+
+
+Average Global Accurancy = 0.8371, Loss = 0.52.
+
+
+-------------Round number:  91  -------------
+
+
+Average Global Accurancy = 0.8679, Loss = 0.46.
+
+
+-------------Round number:  92  -------------
+
+
+Average Global Accurancy = 0.8621, Loss = 0.48.
+
+
+-------------Round number:  93  -------------
+
+
+Average Global Accurancy = 0.8357, Loss = 0.53.
+
+
+-------------Round number:  94  -------------
+
+
+Average Global Accurancy = 0.8423, Loss = 0.50.
+
+
+-------------Round number:  95  -------------
+
+
+Average Global Accurancy = 0.8184, Loss = 0.56.
+
+
+-------------Round number:  96  -------------
+
+
+Average Global Accurancy = 0.8277, Loss = 0.55.
+
+
+-------------Round number:  97  -------------
+
+
+Average Global Accurancy = 0.8464, Loss = 0.50.
+
+
+-------------Round number:  98  -------------
+
+
+Average Global Accurancy = 0.8458, Loss = 0.50.
+
+
+-------------Round number:  99  -------------
+
+
+Average Global Accurancy = 0.8580, Loss = 0.47.
+
+
+         [ Start training iteration 1 ]           
+
+
+Creating model for mnist
+Network configs: [6, 16, 'F']
+Users in total: 20
+Number of users / total users: 3  /  20
+Finished creating FedAvg server.
+
+
+-------------Round number:  0  -------------
+
+
+Average Global Accurancy = 0.0804, Loss = 2.32.
+
+
+-------------Round number:  1  -------------
+
+
+Average Global Accurancy = 0.0810, Loss = 2.33.
+
+
+-------------Round number:  2  -------------
+
+
+Average Global Accurancy = 0.0911, Loss = 2.30.
+
+
+-------------Round number:  3  -------------
+
+
+Average Global Accurancy = 0.1002, Loss = 2.31.
+
+
+-------------Round number:  4  -------------
+
+
+Average Global Accurancy = 0.1843, Loss = 2.25.
+
+
+-------------Round number:  5  -------------
+
+
+Average Global Accurancy = 0.2558, Loss = 2.12.
+
+
+-------------Round number:  6  -------------
+
+
+Average Global Accurancy = 0.2478, Loss = 2.08.
+
+
+-------------Round number:  7  -------------
+
+
+Average Global Accurancy = 0.1903, Loss = 2.16.
+
+
+-------------Round number:  8  -------------
+
+
+Average Global Accurancy = 0.1958, Loss = 2.04.
+
+
+-------------Round number:  9  -------------
+
+
+Average Global Accurancy = 0.2008, Loss = 2.03.
+
+
+-------------Round number:  10  -------------
+
+
+Average Global Accurancy = 0.2577, Loss = 2.01.
+
+
+-------------Round number:  11  -------------
+
+
+Average Global Accurancy = 0.4152, Loss = 1.85.
+
+
+-------------Round number:  12  -------------
+
+
+Average Global Accurancy = 0.3709, Loss = 1.92.
+
+
+-------------Round number:  13  -------------
+
+
+Average Global Accurancy = 0.6110, Loss = 1.47.
+
+
+-------------Round number:  14  -------------
+
+
+Average Global Accurancy = 0.5483, Loss = 1.46.
+
+
+-------------Round number:  15  -------------
+
+
+Average Global Accurancy = 0.5504, Loss = 1.43.
+
+
+-------------Round number:  16  -------------
+
+
+Average Global Accurancy = 0.5900, Loss = 1.36.
+
+
+-------------Round number:  17  -------------
+
+
+Average Global Accurancy = 0.6226, Loss = 1.29.
+
+
+-------------Round number:  18  -------------
+
+
+Average Global Accurancy = 0.5603, Loss = 1.31.
+
+
+-------------Round number:  19  -------------
+
+
+Average Global Accurancy = 0.5529, Loss = 1.30.
+
+
+-------------Round number:  20  -------------
+
+
+Average Global Accurancy = 0.6547, Loss = 1.15.
+
+
+-------------Round number:  21  -------------
+
+
+Average Global Accurancy = 0.6362, Loss = 1.22.
+
+
+-------------Round number:  22  -------------
+
+
+Average Global Accurancy = 0.6176, Loss = 1.16.
+
+
+-------------Round number:  23  -------------
+
+
+Average Global Accurancy = 0.6790, Loss = 1.04.
+
+
+-------------Round number:  24  -------------
+
+
+Average Global Accurancy = 0.6405, Loss = 1.08.
+
+
+-------------Round number:  25  -------------
+
+
+Average Global Accurancy = 0.6504, Loss = 1.07.
+
+
+-------------Round number:  26  -------------
+
+
+Average Global Accurancy = 0.6555, Loss = 1.04.
+
+
+-------------Round number:  27  -------------
+
+
+Average Global Accurancy = 0.7128, Loss = 0.90.
+
+
+-------------Round number:  28  -------------
+
+
+Average Global Accurancy = 0.7407, Loss = 0.84.
+
+
+-------------Round number:  29  -------------
+
+
+Average Global Accurancy = 0.7124, Loss = 0.91.
+
+
+-------------Round number:  30  -------------
+
+
+Average Global Accurancy = 0.7211, Loss = 0.93.
+
+
+-------------Round number:  31  -------------
+
+
+Average Global Accurancy = 0.7732, Loss = 0.80.
+
+
+-------------Round number:  32  -------------
+
+
+Average Global Accurancy = 0.7114, Loss = 0.95.
+
+
+-------------Round number:  33  -------------
+
+
+Average Global Accurancy = 0.5636, Loss = 1.15.
+
+
+-------------Round number:  34  -------------
+
+
+Average Global Accurancy = 0.8120, Loss = 0.68.
+
+
+-------------Round number:  35  -------------
+
+
+Average Global Accurancy = 0.7462, Loss = 0.77.
+
+
+-------------Round number:  36  -------------
+
+
+Average Global Accurancy = 0.7184, Loss = 0.84.
+
+
+-------------Round number:  37  -------------
+
+
+Average Global Accurancy = 0.7770, Loss = 0.69.
+
+
+-------------Round number:  38  -------------
+
+
+Average Global Accurancy = 0.8126, Loss = 0.62.
+
+
+-------------Round number:  39  -------------
+
+
+Average Global Accurancy = 0.8182, Loss = 0.64.
+
+
+-------------Round number:  40  -------------
+
+
+Average Global Accurancy = 0.7650, Loss = 0.69.
+
+
+-------------Round number:  41  -------------
+
+
+Average Global Accurancy = 0.7786, Loss = 0.68.
+
+
+-------------Round number:  42  -------------
+
+
+Average Global Accurancy = 0.7825, Loss = 0.66.
+
+
+-------------Round number:  43  -------------
+
+
+Average Global Accurancy = 0.8202, Loss = 0.61.
+
+
+-------------Round number:  44  -------------
+
+
+Average Global Accurancy = 0.8200, Loss = 0.60.
+
+
+-------------Round number:  45  -------------
+
+
+Average Global Accurancy = 0.8143, Loss = 0.61.
+
+
+-------------Round number:  46  -------------
+
+
+Average Global Accurancy = 0.7978, Loss = 0.63.
+
+
+-------------Round number:  47  -------------
+
+
+Average Global Accurancy = 0.7963, Loss = 0.63.
+
+
+-------------Round number:  48  -------------
+
+
+Average Global Accurancy = 0.7827, Loss = 0.66.
+
+
+-------------Round number:  49  -------------
+
+
+Average Global Accurancy = 0.7574, Loss = 0.70.
+
+
+-------------Round number:  50  -------------
+
+
+Average Global Accurancy = 0.8073, Loss = 0.62.
+
+
+-------------Round number:  51  -------------
+
+
+Average Global Accurancy = 0.7283, Loss = 0.78.
+
+
+-------------Round number:  52  -------------
+
+
+Average Global Accurancy = 0.8108, Loss = 0.61.
+
+
+-------------Round number:  53  -------------
+
+
+Average Global Accurancy = 0.8398, Loss = 0.55.
+
+
+-------------Round number:  54  -------------
+
+
+Average Global Accurancy = 0.7669, Loss = 0.66.
+
+
+-------------Round number:  55  -------------
+
+
+Average Global Accurancy = 0.8470, Loss = 0.51.
+
+
+-------------Round number:  56  -------------
+
+
+Average Global Accurancy = 0.8264, Loss = 0.54.
+
+
+-------------Round number:  57  -------------
+
+
+Average Global Accurancy = 0.8167, Loss = 0.57.
+
+
+-------------Round number:  58  -------------
+
+
+Average Global Accurancy = 0.8448, Loss = 0.53.
+
+
+-------------Round number:  59  -------------
+
+
+Average Global Accurancy = 0.7969, Loss = 0.65.
+
+
+-------------Round number:  60  -------------
+
+
+Average Global Accurancy = 0.8178, Loss = 0.60.
+
+
+-------------Round number:  61  -------------
+
+
+Average Global Accurancy = 0.7652, Loss = 0.69.
+
+
+-------------Round number:  62  -------------
+
+
+Average Global Accurancy = 0.8114, Loss = 0.59.
+
+
+-------------Round number:  63  -------------
+
+
+Average Global Accurancy = 0.8264, Loss = 0.55.
+
+
+-------------Round number:  64  -------------
+
+
+Average Global Accurancy = 0.8341, Loss = 0.54.
+
+
+-------------Round number:  65  -------------
+
+
+Average Global Accurancy = 0.8425, Loss = 0.52.
+
+
+-------------Round number:  66  -------------
+
+
+Average Global Accurancy = 0.8231, Loss = 0.55.
+
+
+-------------Round number:  67  -------------
+
+
+Average Global Accurancy = 0.8031, Loss = 0.58.
+
+
+-------------Round number:  68  -------------
+
+
+Average Global Accurancy = 0.7803, Loss = 0.63.
+
+
+-------------Round number:  69  -------------
+
+
+Average Global Accurancy = 0.8396, Loss = 0.51.
+
+
+-------------Round number:  70  -------------
+
+
+Average Global Accurancy = 0.8602, Loss = 0.49.
+
+
+-------------Round number:  71  -------------
+
+
+Average Global Accurancy = 0.8386, Loss = 0.52.
+
+
+-------------Round number:  72  -------------
+
+
+Average Global Accurancy = 0.8258, Loss = 0.56.
+
+
+-------------Round number:  73  -------------
+
+
+Average Global Accurancy = 0.7937, Loss = 0.59.
+
+
+-------------Round number:  74  -------------
+
+
+Average Global Accurancy = 0.8283, Loss = 0.52.
+
+
+-------------Round number:  75  -------------
+
+
+Average Global Accurancy = 0.8229, Loss = 0.55.
+
+
+-------------Round number:  76  -------------
+
+
+Average Global Accurancy = 0.8289, Loss = 0.54.
+
+
+-------------Round number:  77  -------------
+
+
+Average Global Accurancy = 0.8497, Loss = 0.50.
+
+
+-------------Round number:  78  -------------
+
+
+Average Global Accurancy = 0.8625, Loss = 0.47.
+
+
+-------------Round number:  79  -------------
+
+
+Average Global Accurancy = 0.8675, Loss = 0.47.
+
+
+-------------Round number:  80  -------------
+
+
+Average Global Accurancy = 0.8400, Loss = 0.51.
+
+
+-------------Round number:  81  -------------
+
+
+Average Global Accurancy = 0.8637, Loss = 0.48.
+
+
+-------------Round number:  82  -------------
+
+
+Average Global Accurancy = 0.8306, Loss = 0.53.
+
+
+-------------Round number:  83  -------------
+
+
+Average Global Accurancy = 0.8341, Loss = 0.52.
+
+
+-------------Round number:  84  -------------
+
+
+Average Global Accurancy = 0.8633, Loss = 0.47.
+
+
+-------------Round number:  85  -------------
+
+
+Average Global Accurancy = 0.8431, Loss = 0.51.
+
+
+-------------Round number:  86  -------------
+
+
+Average Global Accurancy = 0.8075, Loss = 0.58.
+
+
+-------------Round number:  87  -------------
+
+
+Average Global Accurancy = 0.8287, Loss = 0.55.
+
+
+-------------Round number:  88  -------------
+
+
+Average Global Accurancy = 0.8289, Loss = 0.53.
+
+
+-------------Round number:  89  -------------
+
+
+Average Global Accurancy = 0.8549, Loss = 0.46.
+
+
+-------------Round number:  90  -------------
+
+
+Average Global Accurancy = 0.8852, Loss = 0.42.
+
+
+-------------Round number:  91  -------------
+
+
+Average Global Accurancy = 0.8918, Loss = 0.40.
+
+
+-------------Round number:  92  -------------
+
+
+Average Global Accurancy = 0.8658, Loss = 0.45.
+
+
+-------------Round number:  93  -------------
+
+
+Average Global Accurancy = 0.8588, Loss = 0.48.
+
+
+-------------Round number:  94  -------------
+
+
+Average Global Accurancy = 0.8592, Loss = 0.47.
+
+
+-------------Round number:  95  -------------
+
+
+Average Global Accurancy = 0.8452, Loss = 0.50.
+
+
+-------------Round number:  96  -------------
+
+
+Average Global Accurancy = 0.8058, Loss = 0.59.
+
+
+-------------Round number:  97  -------------
+
+
+Average Global Accurancy = 0.8353, Loss = 0.53.
+
+
+-------------Round number:  98  -------------
+
+
+Average Global Accurancy = 0.8652, Loss = 0.45.
+
+
+-------------Round number:  99  -------------
+
+
+Average Global Accurancy = 0.8520, Loss = 0.48.
+
+
+         [ Start training iteration 2 ]           
+
+
+Creating model for mnist
+Network configs: [6, 16, 'F']
+Users in total: 20
+Number of users / total users: 3  /  20
+Finished creating FedAvg server.
+
+
+-------------Round number:  0  -------------
+
+
+Average Global Accurancy = 0.1550, Loss = 2.30.
+
+
+-------------Round number:  1  -------------
+
+
+Average Global Accurancy = 0.1235, Loss = 2.29.
+
+
+-------------Round number:  2  -------------
+
+
+Average Global Accurancy = 0.1497, Loss = 2.25.
+
+
+-------------Round number:  3  -------------
+
+
+Average Global Accurancy = 0.1684, Loss = 2.18.
+
+
+-------------Round number:  4  -------------
+
+
+Average Global Accurancy = 0.2377, Loss = 2.13.
+
+
+-------------Round number:  5  -------------
+
+
+Average Global Accurancy = 0.2599, Loss = 2.03.
+
+
+-------------Round number:  6  -------------
+
+
+Average Global Accurancy = 0.3651, Loss = 1.97.
+
+
+-------------Round number:  7  -------------
+
+
+Average Global Accurancy = 0.4102, Loss = 1.90.
+
+
+-------------Round number:  8  -------------
+
+
+Average Global Accurancy = 0.3203, Loss = 1.99.
+
+
+-------------Round number:  9  -------------
+
+
+Average Global Accurancy = 0.5784, Loss = 1.57.
+
+
+-------------Round number:  10  -------------
+
+
+Average Global Accurancy = 0.6073, Loss = 1.48.
+
+
+-------------Round number:  11  -------------
+
+
+Average Global Accurancy = 0.6360, Loss = 1.32.
+
+
+-------------Round number:  12  -------------
+
+
+Average Global Accurancy = 0.6197, Loss = 1.27.
+
+
+-------------Round number:  13  -------------
+
+
+Average Global Accurancy = 0.6555, Loss = 1.25.
+
+
+-------------Round number:  14  -------------
+
+
+Average Global Accurancy = 0.5490, Loss = 1.35.
+
+
+-------------Round number:  15  -------------
+
+
+Average Global Accurancy = 0.6619, Loss = 1.07.
+
+
+-------------Round number:  16  -------------
+
+
+Average Global Accurancy = 0.6792, Loss = 1.05.
+
+
+-------------Round number:  17  -------------
+
+
+Average Global Accurancy = 0.7075, Loss = 1.01.
+
+
+-------------Round number:  18  -------------
+
+
+Average Global Accurancy = 0.6710, Loss = 1.04.
+
+
+-------------Round number:  19  -------------
+
+
+Average Global Accurancy = 0.7209, Loss = 0.90.
+
+
+-------------Round number:  20  -------------
+
+
+Average Global Accurancy = 0.7448, Loss = 0.83.
+
+
+-------------Round number:  21  -------------
+
+
+Average Global Accurancy = 0.7454, Loss = 0.83.
+
+
+-------------Round number:  22  -------------
+
+
+Average Global Accurancy = 0.7363, Loss = 0.80.
+
+
+-------------Round number:  23  -------------
+
+
+Average Global Accurancy = 0.7706, Loss = 0.80.
+
+
+-------------Round number:  24  -------------
+
+
+Average Global Accurancy = 0.7405, Loss = 0.83.
+
+
+-------------Round number:  25  -------------
+
+
+Average Global Accurancy = 0.7118, Loss = 0.86.
+
+
+-------------Round number:  26  -------------
+
+
+Average Global Accurancy = 0.7279, Loss = 0.88.
+
+
+-------------Round number:  27  -------------
+
+
+Average Global Accurancy = 0.6605, Loss = 0.99.
+
+
+-------------Round number:  28  -------------
+
+
+Average Global Accurancy = 0.8013, Loss = 0.67.
+
+
+-------------Round number:  29  -------------
+
+
+Average Global Accurancy = 0.8068, Loss = 0.66.
+
+
+-------------Round number:  30  -------------
+
+
+Average Global Accurancy = 0.7382, Loss = 0.73.
+
+
+-------------Round number:  31  -------------
+
+
+Average Global Accurancy = 0.7520, Loss = 0.71.
+
+
+-------------Round number:  32  -------------
+
+
+Average Global Accurancy = 0.7153, Loss = 0.77.
+
+
+-------------Round number:  33  -------------
+
+
+Average Global Accurancy = 0.7120, Loss = 0.81.
+
+
+-------------Round number:  34  -------------
+
+
+Average Global Accurancy = 0.7623, Loss = 0.70.
+
+
+-------------Round number:  35  -------------
+
+
+Average Global Accurancy = 0.7961, Loss = 0.65.
+
+
+-------------Round number:  36  -------------
+
+
+Average Global Accurancy = 0.7687, Loss = 0.71.
+
+
+-------------Round number:  37  -------------
+
+
+Average Global Accurancy = 0.8538, Loss = 0.54.
+
+
+-------------Round number:  38  -------------
+
+
+Average Global Accurancy = 0.8277, Loss = 0.60.
+
+
+-------------Round number:  39  -------------
+
+
+Average Global Accurancy = 0.8124, Loss = 0.64.
+
+
+-------------Round number:  40  -------------
+
+
+Average Global Accurancy = 0.8324, Loss = 0.57.
+
+
+-------------Round number:  41  -------------
+
+
+Average Global Accurancy = 0.8394, Loss = 0.55.
+
+
+-------------Round number:  42  -------------
+
+
+Average Global Accurancy = 0.8466, Loss = 0.53.
+
+
+-------------Round number:  43  -------------
+
+
+Average Global Accurancy = 0.8369, Loss = 0.54.
+
+
+-------------Round number:  44  -------------
+
+
+Average Global Accurancy = 0.8349, Loss = 0.53.
+
+
+-------------Round number:  45  -------------
+
+
+Average Global Accurancy = 0.7974, Loss = 0.58.
+
+
+-------------Round number:  46  -------------
+
+
+Average Global Accurancy = 0.8407, Loss = 0.52.
+
+
+-------------Round number:  47  -------------
+
+
+Average Global Accurancy = 0.7961, Loss = 0.59.
+
+
+-------------Round number:  48  -------------
+
+
+Average Global Accurancy = 0.8147, Loss = 0.56.
+
+
+-------------Round number:  49  -------------
+
+
+Average Global Accurancy = 0.8155, Loss = 0.56.
+
+
+-------------Round number:  50  -------------
+
+
+Average Global Accurancy = 0.8211, Loss = 0.56.
+
+
+-------------Round number:  51  -------------
+
+
+Average Global Accurancy = 0.7592, Loss = 0.65.
+
+
+-------------Round number:  52  -------------
+
+
+Average Global Accurancy = 0.8318, Loss = 0.51.
+
+
+-------------Round number:  53  -------------
+
+
+Average Global Accurancy = 0.8328, Loss = 0.51.
+
+
+-------------Round number:  54  -------------
+
+
+Average Global Accurancy = 0.8167, Loss = 0.57.
+
+
+-------------Round number:  55  -------------
+
+
+Average Global Accurancy = 0.8235, Loss = 0.58.
+
+
+-------------Round number:  56  -------------
+
+
+Average Global Accurancy = 0.7972, Loss = 0.59.
+
+
+-------------Round number:  57  -------------
+
+
+Average Global Accurancy = 0.8252, Loss = 0.54.
+
+
+-------------Round number:  58  -------------
+
+
+Average Global Accurancy = 0.8435, Loss = 0.51.
+
+
+-------------Round number:  59  -------------
+
+
+Average Global Accurancy = 0.8134, Loss = 0.59.
+
+
+-------------Round number:  60  -------------
+
+
+Average Global Accurancy = 0.8596, Loss = 0.48.
+
+
+-------------Round number:  61  -------------
+
+
+Average Global Accurancy = 0.8543, Loss = 0.49.
+
+
+-------------Round number:  62  -------------
+
+
+Average Global Accurancy = 0.8466, Loss = 0.48.
+
+
+-------------Round number:  63  -------------
+
+
+Average Global Accurancy = 0.8320, Loss = 0.53.
+
+
+-------------Round number:  64  -------------
+
+
+Average Global Accurancy = 0.8483, Loss = 0.49.
+
+
+-------------Round number:  65  -------------
+
+
+Average Global Accurancy = 0.8637, Loss = 0.47.
+
+
+-------------Round number:  66  -------------
+
+
+Average Global Accurancy = 0.7901, Loss = 0.61.
+
+
+-------------Round number:  67  -------------
+
+
+Average Global Accurancy = 0.8314, Loss = 0.51.
+
+
+-------------Round number:  68  -------------
+
+
+Average Global Accurancy = 0.8749, Loss = 0.43.
+
+
+-------------Round number:  69  -------------
+
+
+Average Global Accurancy = 0.8417, Loss = 0.48.
+
+
+-------------Round number:  70  -------------
+
+
+Average Global Accurancy = 0.8728, Loss = 0.44.
+
+
+-------------Round number:  71  -------------
+
+
+Average Global Accurancy = 0.8773, Loss = 0.43.
+
+
+-------------Round number:  72  -------------
+
+
+Average Global Accurancy = 0.8689, Loss = 0.45.
+
+
+-------------Round number:  73  -------------
+
+
+Average Global Accurancy = 0.8392, Loss = 0.50.
+
+
+-------------Round number:  74  -------------
+
+
+Average Global Accurancy = 0.8497, Loss = 0.47.
+
+
+-------------Round number:  75  -------------
+
+
+Average Global Accurancy = 0.8598, Loss = 0.45.
+
+
+-------------Round number:  76  -------------
+
+
+Average Global Accurancy = 0.8621, Loss = 0.46.
+
+
+-------------Round number:  77  -------------
+
+
+Average Global Accurancy = 0.8668, Loss = 0.44.
+
+
+-------------Round number:  78  -------------
+
+
+Average Global Accurancy = 0.8685, Loss = 0.44.
+
+
+-------------Round number:  79  -------------
+
+
+Average Global Accurancy = 0.8576, Loss = 0.45.
+
+
+-------------Round number:  80  -------------
+
+
+Average Global Accurancy = 0.8580, Loss = 0.45.
+
+
+-------------Round number:  81  -------------
+
+
+Average Global Accurancy = 0.8664, Loss = 0.44.
+
+
+-------------Round number:  82  -------------
+
+
+Average Global Accurancy = 0.8454, Loss = 0.47.
+
+
+-------------Round number:  83  -------------
+
+
+Average Global Accurancy = 0.8637, Loss = 0.46.
+
+
+-------------Round number:  84  -------------
+
+
+Average Global Accurancy = 0.8852, Loss = 0.40.
+
+
+-------------Round number:  85  -------------
+
+
+Average Global Accurancy = 0.8658, Loss = 0.44.
+
+
+-------------Round number:  86  -------------
+
+
+Average Global Accurancy = 0.8526, Loss = 0.46.
+
+
+-------------Round number:  87  -------------
+
+
+Average Global Accurancy = 0.8293, Loss = 0.50.
+
+
+-------------Round number:  88  -------------
+
+
+Average Global Accurancy = 0.8561, Loss = 0.47.
+
+
+-------------Round number:  89  -------------
+
+
+Average Global Accurancy = 0.8411, Loss = 0.49.
+
+
+-------------Round number:  90  -------------
+
+
+Average Global Accurancy = 0.8794, Loss = 0.40.
+
+
+-------------Round number:  91  -------------
+
+
+Average Global Accurancy = 0.8736, Loss = 0.41.
+
+
+-------------Round number:  92  -------------
+
+
+Average Global Accurancy = 0.8877, Loss = 0.40.
+
+
+-------------Round number:  93  -------------
+
+
+Average Global Accurancy = 0.8728, Loss = 0.42.
+
+
+-------------Round number:  94  -------------
+
+
+Average Global Accurancy = 0.8685, Loss = 0.42.
+
+
+-------------Round number:  95  -------------
+
+
+Average Global Accurancy = 0.8662, Loss = 0.44.
+
+
+-------------Round number:  96  -------------
+
+
+Average Global Accurancy = 0.8635, Loss = 0.46.
+
+
+-------------Round number:  97  -------------
+
+
+Average Global Accurancy = 0.8390, Loss = 0.49.
+
+
+-------------Round number:  98  -------------
+
+
+Average Global Accurancy = 0.8796, Loss = 0.39.
+
+
+-------------Round number:  99  -------------
+
+
+Average Global Accurancy = 0.8806, Loss = 0.39.
+Finished training.

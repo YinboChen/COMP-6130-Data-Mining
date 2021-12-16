@@ -1,0 +1,13 @@
+Attack trial 1 / 10
+Attack trial 2 / 10
+Attack trial 3 / 10
+Attack trial 4 / 10
+Attack trial 5 / 10
+Attack trial 6 / 10
+Attack trial 7 / 10
+Attack trial 8 / 10
+Attack trial 9 / 10
+Attack trial 10 / 10
+Path restriction attack	 10-Avg accuracy:	0.650600
+Random guess attack	 10-Avg accuracy:	0.499217
+See /home/yinbo/Desktop/comp6130/final project/final project/featureinference-vfl-master/PRA/log/bank_unknown_6_depth_5_expnum_10_20211201084607.log for more details.

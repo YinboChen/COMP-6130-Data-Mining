@@ -1,0 +1,9 @@
+2021-12-01 08:45:05,004 - CRITICAL - dataset: /home/yinbo/Desktop/comp6130/final project/final project/featureinference-vfl-master/datasets/bank_cleaned.csv
+2021-12-01 08:45:05,004 - CRITICAL - number of target features: 6
+2021-12-01 08:45:05,005 - CRITICAL - max tree depth: 5
+2021-12-01 08:45:05,005 - CRITICAL - number of experimental trials: 10
+2021-12-01 08:45:05,493 - CRITICAL - Begin trials
+2021-12-01 08:45:05,493 - CRITICAL - -------------------------------------
+2021-12-01 08:45:05,493 - CRITICAL - Attack trial 1 / 10
+2021-12-01 08:45:06,020 - INFO - Decision Tree	 10-Avg train_perf:	0.907954, test_perf:	0.905289
+2021-12-01 08:45:06,021 - INFO - target feature indexes: [14 15 16 17 18 19]

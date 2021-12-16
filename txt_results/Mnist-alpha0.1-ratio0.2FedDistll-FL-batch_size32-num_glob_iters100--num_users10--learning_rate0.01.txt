@@ -1,0 +1,22 @@
+================================================================================
+Summary of training process:
+Algorithm: FedDistll-FL
+Batch size: 32
+Learing rate       : 0.01
+Ensemble learing rate       : 0.0001
+Average Moving       : 1.0
+Subset of users      : 3
+Number of global rounds       : 100
+Number of local rounds       : 20
+Dataset       : Mnist-alpha0.1-ratio0.2
+Local Model       : cnn
+Device            : cpu
+================================================================================
+
+
+         [ Start training iteration 0 ]           
+
+
+Creating model for mnist
+Network configs: [6, 16, 'F']
+Algorithm FedDistll-FL has not been implemented.

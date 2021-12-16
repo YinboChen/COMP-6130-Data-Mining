@@ -1,0 +1,108 @@
+2021-12-01 07:59:32,284 - CRITICAL - dataset: /home/yinbo/Desktop/comp6130/final project/final project/featureinference-vfl-master/datasets/bank_cleaned.csv
+2021-12-01 07:59:32,285 - CRITICAL - number of target features: 6
+2021-12-01 07:59:32,285 - CRITICAL - max tree depth: 5
+2021-12-01 07:59:32,285 - CRITICAL - number of experimental trials: 10
+2021-12-01 07:59:32,805 - CRITICAL - Begin trials
+2021-12-01 07:59:32,805 - CRITICAL - -------------------------------------
+2021-12-01 07:59:32,805 - CRITICAL - Attack trial 1 / 10
+2021-12-01 07:59:33,362 - INFO - Decision Tree	 10-Avg train_perf:	0.907954, test_perf:	0.905289
+2021-12-01 07:59:33,363 - INFO - target feature indexes: [14 15 16 17 18 19]
+2021-12-01 07:59:40,876 - CRITICAL - total correct guess num: 1001
+2021-12-01 07:59:40,876 - CRITICAL - total unknown compare num: 1287
+2021-12-01 07:59:40,876 - CRITICAL - total correct guess rate: 0.777778
+2021-12-01 07:59:40,877 - CRITICAL - baseline total correct guess num: 1904
+2021-12-01 07:59:40,877 - CRITICAL - baseline total unknown compare num: 3749
+2021-12-01 07:59:40,877 - CRITICAL - baseline total correct guess rate: 0.507869
+2021-12-01 07:59:40,877 - CRITICAL - -------------------------------------
+2021-12-01 07:59:40,877 - CRITICAL - Attack trial 2 / 10
+2021-12-01 07:59:41,468 - INFO - Decision Tree	 10-Avg train_perf:	0.908877, test_perf:	0.904674
+2021-12-01 07:59:41,469 - INFO - target feature indexes: [14 15 16 17 18 19]
+2021-12-01 07:59:48,913 - CRITICAL - total correct guess num: 914
+2021-12-01 07:59:48,913 - CRITICAL - total unknown compare num: 1328
+2021-12-01 07:59:48,913 - CRITICAL - total correct guess rate: 0.688253
+2021-12-01 07:59:48,913 - CRITICAL - baseline total correct guess num: 2044
+2021-12-01 07:59:48,913 - CRITICAL - baseline total unknown compare num: 4172
+2021-12-01 07:59:48,913 - CRITICAL - baseline total correct guess rate: 0.489933
+2021-12-01 07:59:48,913 - CRITICAL - -------------------------------------
+2021-12-01 07:59:48,913 - CRITICAL - Attack trial 3 / 10
+2021-12-01 07:59:49,481 - INFO - Decision Tree	 10-Avg train_perf:	0.909440, test_perf:	0.908159
+2021-12-01 07:59:49,482 - INFO - target feature indexes: [14 15 16 17 18 19]
+2021-12-01 07:59:57,015 - CRITICAL - total correct guess num: 10121
+2021-12-01 07:59:57,015 - CRITICAL - total unknown compare num: 16325
+2021-12-01 07:59:57,016 - CRITICAL - total correct guess rate: 0.619969
+2021-12-01 07:59:57,016 - CRITICAL - baseline total correct guess num: 7076
+2021-12-01 07:59:57,016 - CRITICAL - baseline total unknown compare num: 14132
+2021-12-01 07:59:57,016 - CRITICAL - baseline total correct guess rate: 0.500708
+2021-12-01 07:59:57,016 - CRITICAL - -------------------------------------
+2021-12-01 07:59:57,016 - CRITICAL - Attack trial 4 / 10
+2021-12-01 07:59:57,579 - INFO - Decision Tree	 10-Avg train_perf:	0.908723, test_perf:	0.905084
+2021-12-01 07:59:57,580 - INFO - target feature indexes: [14 15 16 17 18 19]
+2021-12-01 08:00:05,127 - CRITICAL - total correct guess num: 9529
+2021-12-01 08:00:05,127 - CRITICAL - total unknown compare num: 15622
+2021-12-01 08:00:05,127 - CRITICAL - total correct guess rate: 0.609973
+2021-12-01 08:00:05,127 - CRITICAL - baseline total correct guess num: 8084
+2021-12-01 08:00:05,127 - CRITICAL - baseline total unknown compare num: 15958
+2021-12-01 08:00:05,127 - CRITICAL - baseline total correct guess rate: 0.506580
+2021-12-01 08:00:05,127 - CRITICAL - -------------------------------------
+2021-12-01 08:00:05,127 - CRITICAL - Attack trial 5 / 10
+2021-12-01 08:00:05,711 - INFO - Decision Tree	 10-Avg train_perf:	0.911080, test_perf:	0.902624
+2021-12-01 08:00:05,711 - INFO - target feature indexes: [14 15 16 17 18 19]
+2021-12-01 08:00:13,164 - CRITICAL - total correct guess num: 12893
+2021-12-01 08:00:13,164 - CRITICAL - total unknown compare num: 20911
+2021-12-01 08:00:13,164 - CRITICAL - total correct guess rate: 0.616565
+2021-12-01 08:00:13,164 - CRITICAL - baseline total correct guess num: 9102
+2021-12-01 08:00:13,165 - CRITICAL - baseline total unknown compare num: 18329
+2021-12-01 08:00:13,165 - CRITICAL - baseline total correct guess rate: 0.496590
+2021-12-01 08:00:13,165 - CRITICAL - -------------------------------------
+2021-12-01 08:00:13,165 - CRITICAL - Attack trial 6 / 10
+2021-12-01 08:00:13,714 - INFO - Decision Tree	 10-Avg train_perf:	0.908672, test_perf:	0.900164
+2021-12-01 08:00:13,715 - INFO - target feature indexes: [14 15 16 17 18 19]
+2021-12-01 08:00:21,019 - CRITICAL - total correct guess num: 3620
+2021-12-01 08:00:21,019 - CRITICAL - total unknown compare num: 5024
+2021-12-01 08:00:21,020 - CRITICAL - total correct guess rate: 0.720541
+2021-12-01 08:00:21,020 - CRITICAL - baseline total correct guess num: 1696
+2021-12-01 08:00:21,020 - CRITICAL - baseline total unknown compare num: 3387
+2021-12-01 08:00:21,020 - CRITICAL - baseline total correct guess rate: 0.500738
+2021-12-01 08:00:21,020 - CRITICAL - -------------------------------------
+2021-12-01 08:00:21,020 - CRITICAL - Attack trial 7 / 10
+2021-12-01 08:00:21,577 - INFO - Decision Tree	 10-Avg train_perf:	0.908108, test_perf:	0.908364
+2021-12-01 08:00:21,578 - INFO - target feature indexes: [14 15 16 17 18 19]
+2021-12-01 08:00:29,093 - CRITICAL - total correct guess num: 1392
+2021-12-01 08:00:29,093 - CRITICAL - total unknown compare num: 2000
+2021-12-01 08:00:29,094 - CRITICAL - total correct guess rate: 0.696000
+2021-12-01 08:00:29,094 - CRITICAL - baseline total correct guess num: 2700
+2021-12-01 08:00:29,094 - CRITICAL - baseline total unknown compare num: 5362
+2021-12-01 08:00:29,094 - CRITICAL - baseline total correct guess rate: 0.503543
+2021-12-01 08:00:29,094 - CRITICAL - -------------------------------------
+2021-12-01 08:00:29,094 - CRITICAL - Attack trial 8 / 10
+2021-12-01 08:00:29,676 - INFO - Decision Tree	 10-Avg train_perf:	0.907339, test_perf:	0.907339
+2021-12-01 08:00:29,677 - INFO - target feature indexes: [14 15 16 17 18 19]
+2021-12-01 08:00:37,103 - CRITICAL - total correct guess num: 5714
+2021-12-01 08:00:37,106 - CRITICAL - total unknown compare num: 9796
+2021-12-01 08:00:37,106 - CRITICAL - total correct guess rate: 0.583299
+2021-12-01 08:00:37,106 - CRITICAL - baseline total correct guess num: 2027
+2021-12-01 08:00:37,106 - CRITICAL - baseline total unknown compare num: 4138
+2021-12-01 08:00:37,106 - CRITICAL - baseline total correct guess rate: 0.489850
+2021-12-01 08:00:37,106 - CRITICAL - -------------------------------------
+2021-12-01 08:00:37,106 - CRITICAL - Attack trial 9 / 10
+2021-12-01 08:00:37,669 - INFO - Decision Tree	 10-Avg train_perf:	0.908313, test_perf:	0.899139
+2021-12-01 08:00:37,670 - INFO - target feature indexes: [14 15 16 17 18 19]
+2021-12-01 08:00:45,233 - CRITICAL - total correct guess num: 11275
+2021-12-01 08:00:45,234 - CRITICAL - total unknown compare num: 18957
+2021-12-01 08:00:45,234 - CRITICAL - total correct guess rate: 0.594767
+2021-12-01 08:00:45,234 - CRITICAL - baseline total correct guess num: 7990
+2021-12-01 08:00:45,234 - CRITICAL - baseline total unknown compare num: 16016
+2021-12-01 08:00:45,234 - CRITICAL - baseline total correct guess rate: 0.498876
+2021-12-01 08:00:45,234 - CRITICAL - -------------------------------------
+2021-12-01 08:00:45,234 - CRITICAL - Attack trial 10 / 10
+2021-12-01 08:00:45,818 - INFO - Decision Tree	 10-Avg train_perf:	0.910670, test_perf:	0.905699
+2021-12-01 08:00:45,819 - INFO - target feature indexes: [14 15 16 17 18 19]
+2021-12-01 08:00:53,309 - CRITICAL - total correct guess num: 13355
+2021-12-01 08:00:53,310 - CRITICAL - total unknown compare num: 22301
+2021-12-01 08:00:53,310 - CRITICAL - total correct guess rate: 0.598852
+2021-12-01 08:00:53,310 - CRITICAL - baseline total correct guess num: 9092
+2021-12-01 08:00:53,310 - CRITICAL - baseline total unknown compare num: 18276
+2021-12-01 08:00:53,310 - CRITICAL - baseline total correct guess rate: 0.497483
+2021-12-01 08:00:53,310 - CRITICAL - -------------------------------------
+2021-12-01 08:00:53,310 - CRITICAL - Path restriction attack	 10-Avg accuracy:	0.650600
+2021-12-01 08:00:53,310 - CRITICAL - Random guess attack	 10-Avg accuracy:	0.499217

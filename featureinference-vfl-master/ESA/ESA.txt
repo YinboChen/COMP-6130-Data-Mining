@@ -1,0 +1,13 @@
+Attack trial 1 / 10
+Attack trial 2 / 10
+Attack trial 3 / 10
+Attack trial 4 / 10
+Attack trial 5 / 10
+Attack trial 6 / 10
+Attack trial 7 / 10
+Attack trial 8 / 10
+Attack trial 9 / 10
+Attack trial 10 / 10
+Back propagation attack	 10-Avg MSE:	0.165335
+Random guess attack	 10-Avg MSE:	0.202578
+See /home/yinbo/Desktop/comp6130/final project/final project/featureinference-vfl-master/ESA/log/bank_unknown_10_expnum_10_20211201084730.log for more details.
